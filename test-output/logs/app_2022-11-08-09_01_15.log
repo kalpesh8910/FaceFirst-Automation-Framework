@@ -1,0 +1,2 @@
+2022-Nov-08 09:01:19 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-08 09:01:21 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

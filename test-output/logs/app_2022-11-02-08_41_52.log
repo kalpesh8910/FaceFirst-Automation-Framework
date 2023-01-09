@@ -1,0 +1,83 @@
+2022-Nov-02 08:41:56 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-02 08:42:00 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-02 08:42:01 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-02 08:42:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-02 08:42:01 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-02 08:42:16 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-02 08:42:27 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-02 08:42:27 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-02 08:42:27 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-02 08:42:27 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-02 08:42:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-02 08:42:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:42:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:42:58 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:43:08 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:43:18 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:43:28 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:43:38 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:43:48 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:43:58 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:44:08 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 08:44:18 AM [main] INFO  com.web.actions.WebActions - Object Text : WayBill No: HU01001493, --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-02 08:44:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Object Text : 551370 , North Sea Express NV, --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Object Text : Hull, --> xpath: //*[@id='showDetails']//label[text()='From:']/../*[@class='data']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Object Text : Europoort, --> xpath: //*[@id='showDetails']//label[text()='To:']/../*[@class='data']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Object Text : HU01001493, --> xpath: //*[@id='showDetails']//label[text()='WayBill No: ']/../*[@class='data']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Object Text : 02 Nov 2022, --> xpath: //*[@id='showDetails']//label[text()='Booking Date:']/../*[@class='data']]
+2022-Nov-02 08:44:19 AM [main] INFO  com.web.actions.WebActions - Object Text : CHA, --> xpath: //*[@id='showDetails']//label[text()='Unit Type: ']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : PN2NOV1037, --> xpath: //*[@id='showDetails']//label[text()='Unit ID: ']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : 12, --> xpath: //*[@id='showDetails']//label[text()='Unit Length (M):']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : No, --> xpath: //*[@id='showDetails']//label[text()='Plug-in:']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : 0, --> xpath: //*[@id='showDetails']//label[text()='Drivers:']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Temp (°C):']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : PN2NOV1037JR, --> xpath: //*[@id='showDetails']//label[text()='Job Reference:']/../*[@class='data']]
+2022-Nov-02 08:44:20 AM [main] INFO  com.web.actions.WebActions - Object Text : TEST-1, --> xpath: //*[@id='showDetails']//label[text()='Description:']/../*[@class='data']]
+2022-Nov-02 08:44:21 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //h2[text()='Booking Details']/../..//a[@class='close icon']]
+2022-Nov-02 08:44:21 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-02 08:44:33 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-02 08:44:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: Account_0]
+2022-Nov-02 08:44:44 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: Account_0]
+2022-Nov-02 08:44:44 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select data-index="0" class="form-control" id="Account_0" name="Account" disabled="disabled" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (168, 19). Other element would receive the click: <div class="colLogo">...</div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8c7d69d26a97c1288749337f55a73d
+2022-Nov-02 08:44:45 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : 551370, North Sea Express NV, --> id: Account_0]
+2022-Nov-02 08:44:45 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Account ===> 551370 , North Sea Express NV --> 551370, North Sea Express NV = false
+2022-Nov-02 08:44:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route_0]
+2022-Nov-02 08:44:45 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : Hull to Europoort, --> id: Route_0]
+2022-Nov-02 08:44:45 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Route ===> Hull to Europoort --> Hull to Europoort = true
+2022-Nov-02 08:44:45 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'WayBillNo ===> HU01001493 --> HU01001493 = true
+2022-Nov-02 08:44:46 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: UnitType_0]
+2022-Nov-02 08:44:46 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select class="form-control" data-index="0" id="UnitType_0" name="UnitType" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (438, 19). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8c7d69d26a97c1288749337f55a73d
+2022-Nov-02 08:44:47 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : CHASSIS( CHA ), --> id: UnitType_0]
+2022-Nov-02 08:44:47 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitType ===> CHA --> CHASSIS( CHA ) = false
+2022-Nov-02 08:44:47 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitID ===> PN2NOV1037 --> PN2NOV1037 = true
+2022-Nov-02 08:44:47 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitLength ===> 12 --> 12 = true
+2022-Nov-02 08:44:47 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: drivers_0]
+2022-Nov-02 08:44:47 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : 0, --> id: drivers_0]
+2022-Nov-02 08:44:47 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Drivers ===> 0 --> 0 = true
+2022-Nov-02 08:44:47 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Temperature ===>  -->  = true
+2022-Nov-02 08:44:48 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobReference ===> PN2NOV1037JR --> PN2NOV1037JR = true
+2022-Nov-02 08:44:48 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobDescription ===> TEST-1 --> TEST-1 = true
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:44:48 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (0e8c7d69d26a97c1288749337f55a73d)] -
+2022-Nov-02 08:45:09 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

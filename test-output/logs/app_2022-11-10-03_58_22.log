@@ -1,0 +1,24 @@
+2022-Nov-10 03:58:30 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-10 03:58:36 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-10 03:58:37 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 03:58:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 03:58:37 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-10 03:58:50 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-10 03:59:00 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-10 03:59:01 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Nov-10 03:59:01 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-10 03:59:01 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Nov-10 03:59:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-10 04:00:34 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '
+2022-Nov-10 04:00:34 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: cancel' (tried for 60 second(s) with 500 milliseconds interval)
+2022-Nov-10 04:01:15 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-10 04:01:15 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cancel"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b51a4694c3fb772b34e6d6929af2cb4b
+*** Element info: {Using=class name, value=cancel}
+2022-Nov-10 04:01:18 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

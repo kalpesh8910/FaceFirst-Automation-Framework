@@ -1,0 +1,59 @@
+2022-Nov-05 10:54:45 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-05 10:54:50 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-05 10:54:50 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-05 10:54:50 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-05 10:54:51 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-05 10:55:03 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-05 10:55:13 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-05 10:55:13 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-05 10:55:14 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-05 10:55:14 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-05 10:55:14 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-05 10:55:24 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:55:34 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:55:44 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:55:54 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:56:04 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:56:14 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:56:24 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:56:34 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:56:44 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:56:55 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-05 10:57:05 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-05 10:57:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-05 10:57:05 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-05 10:57:25 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-05 10:57:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-05 10:57:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='DVR-CQF']]
+2022-Nov-05 10:57:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-05 10:57:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-05 10:57:40 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-05 10:57:50 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-05 10:57:50 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-05 10:57:51 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-05 10:57:51 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-05 10:57:51 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-05 10:58:03 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-05 10:58:19 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Nov-05 10:58:19 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Nov-05 10:58:19 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehHeight]
+2022-Nov-05 10:58:20 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehWidth]
+2022-Nov-05 10:58:20 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Nov-05 10:58:20 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Nov-05 10:58:30 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: BillingAddrCB]
+2022-Nov-05 10:58:30 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 429cbd0980f4cc09b67da28fb96cd30e
+2022-Nov-05 10:58:31 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //select[@id='userDetsAddrCountry']//option[@value='GB']]
+2022-Nov-05 10:58:31 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 429cbd0980f4cc09b67da28fb96cd30e
+2022-Nov-05 10:58:41 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

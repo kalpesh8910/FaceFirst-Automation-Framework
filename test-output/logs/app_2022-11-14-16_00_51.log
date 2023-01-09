@@ -1,0 +1,88 @@
+2022-Nov-14 16:00:56 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-14 16:01:01 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-14 16:01:02 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-14 16:01:02 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-14 16:01:02 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-14 16:01:14 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-14 16:01:24 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-14 16:01:24 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-14 16:01:25 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-14 16:01:25 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-14 16:01:25 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-14 16:01:35 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-14 16:01:45 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-14 16:01:55 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-14 16:02:06 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-14 16:02:17 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-14 16:02:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-14 16:02:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-14 16:02:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-14 16:02:38 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-14 16:02:39 PM [main] INFO  com.web.actions.WebActions - Write Text '221114040238' on --> id: UnitID_0]
+2022-Nov-14 16:02:39 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-14 16:02:40 PM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221114040239' on --> id: JobReference_0]
+2022-Nov-14 16:02:40 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-14 16:02:40 PM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_14_04_02_40' on --> id: JobDescription_0]
+2022-Nov-14 16:02:40 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-14 16:02:40 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-14 16:02:41 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-14 16:02:41 PM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-14 16:02:41 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-14 16:02:41 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-14 16:02:42 PM [main] INFO  com.web.actions.WebActions - Click on :--> class name: copy]
+2022-Nov-14 16:02:44 PM [main] INFO  com.web.actions.WebActions - Object Text : Choose Account
+500984, Martintrux Group Ltd.
+ 551370, North Sea Express NV
+ 788022, Brian Caffrey INT ****GBP****
+ , --> id: Account_0]
+2022-Nov-14 16:02:44 PM [main] INFO  com.web.actions.WebActions - Object Text : Unit Type
+CAR UP TO 1.8M HIGH( CAR )
+COACH( CCHNEW )
+FAST LORRY( FASTLY )
+FAST TRACTOR+TRAILER( FASTTT )
+FAST VAN( FASTVN )
+GLASS CARRIER( GLASS )
+HORSE-BOX( HBOX )
+HIGH VAN( HIVAN )
+LORRY( LORRY )
+LORRY+TRAILER( LT )
+TRACTOR UNIT( UNIT )
+TRACTOR+TANKER( TTKR )
+TRACTOR+TRAILER( TT )
+VAN( VAN )
+VAN+TRAILER( VANTLR ), --> id: UnitType_0]
+2022-Nov-14 16:02:44 PM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: UnitID_0]
+2022-Nov-14 16:02:44 PM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: UnitLength_0]
+2022-Nov-14 16:02:44 PM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: JobReference_0]
+2022-Nov-14 16:02:44 PM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: JobDescription_0]
+2022-Nov-14 16:02:51 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: Account_1]
+2022-Nov-14 16:02:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: Account_1]
+2022-Nov-14 16:02:51 PM [main] INFO  com.web.actions.WebActions - First Selected Option value : 551370, North Sea Express NV, --> id: Account_1]
+2022-Nov-14 16:02:51 PM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Account ===> Choose Account
+500984, Martintrux Group Ltd.
+ 551370, North Sea Express NV
+ 788022, Brian Caffrey INT ****GBP****
+  --> 551370, North Sea Express NV = false
+2022-Nov-14 16:02:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_1]
+2022-Nov-14 16:02:52 PM [main] INFO  com.web.actions.WebActions - First Selected Option value : VAN( VAN ), --> id: UnitType_1]
+2022-Nov-14 16:02:52 PM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitType ===> Unit Type
+CAR UP TO 1.8M HIGH( CAR )
+COACH( CCHNEW )
+FAST LORRY( FASTLY )
+FAST TRACTOR+TRAILER( FASTTT )
+FAST VAN( FASTVN )
+GLASS CARRIER( GLASS )
+HORSE-BOX( HBOX )
+HIGH VAN( HIVAN )
+LORRY( LORRY )
+LORRY+TRAILER( LT )
+TRACTOR UNIT( UNIT )
+TRACTOR+TANKER( TTKR )
+TRACTOR+TRAILER( TT )
+VAN( VAN )
+VAN+TRAILER( VANTLR ) --> VAN( VAN ) = false
+2022-Nov-14 16:02:52 PM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitID ===>  --> 221114040238 = false
+2022-Nov-14 16:02:52 PM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobReference ===>  --> JR20221114040239 = false
+2022-Nov-14 16:02:52 PM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobDescription ===>  --> JD2022_11_14_04_02_40 = false
+2022-Nov-14 16:03:07 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-14 16:03:09 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

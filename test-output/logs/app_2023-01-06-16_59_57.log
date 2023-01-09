@@ -1,0 +1,3 @@
+2023-Jan-06 17:00:02 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-06 17:00:51 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://www.filechannels.net/login
+2023-Jan-06 17:00:51 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

@@ -1,0 +1,43 @@
+2022-Nov-18 08:51:38 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-18 08:51:42 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-18 08:51:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 08:51:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 08:51:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-18 08:51:55 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-18 08:52:06 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-18 08:52:06 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-18 08:52:06 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-18 08:52:06 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-18 08:52:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-18 08:52:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-18 08:52:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-18 08:52:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-18 08:52:49 AM [main] INFO  com.web.actions.WebActions - Object Text : WayBill No: CA12469818, --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-18 08:52:49 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : 551370 , North Sea Express NV, --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : Calais, --> xpath: //*[@id='showDetails']//label[text()='From:']/../*[@class='data']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : Dover, --> xpath: //*[@id='showDetails']//label[text()='To:']/../*[@class='data']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : CA12469818, --> xpath: //*[@id='showDetails']//label[text()='WayBill No: ']/../*[@class='data']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : 18 Nov 2022, --> xpath: //*[@id='showDetails']//label[text()='Booking Date:']/../*[@class='data']]
+2022-Nov-18 08:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : UNIT, --> xpath: //*[@id='showDetails']//label[text()='Unit Type: ']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : PN18NOV138, --> xpath: //*[@id='showDetails']//label[text()='Unit ID: ']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : 12, --> xpath: //*[@id='showDetails']//label[text()='Unit Length (M):']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Plug-in:']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : 1, --> xpath: //*[@id='showDetails']//label[text()='Drivers:']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Temp (°C):']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : PN18NOV138JR, --> xpath: //*[@id='showDetails']//label[text()='Job Reference:']/../*[@class='data']]
+2022-Nov-18 08:52:51 AM [main] INFO  com.web.actions.WebActions - Object Text : TEST-1, --> xpath: //*[@id='showDetails']//label[text()='Description:']/../*[@class='data']]
+2022-Nov-18 08:52:52 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //h2[text()='Booking Details']/../..//a[@class='close icon']]
+2022-Nov-18 08:52:52 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-18 08:53:22 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-18 08:53:22 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='optionCol ']//a[@class='copy']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb4c9ad3a99ec2be5b0f8f16e2c6e3ac
+*** Element info: {Using=xpath, value=//div[@id='optionCol ']//a[@class='copy']}
+2022-Nov-18 08:53:35 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

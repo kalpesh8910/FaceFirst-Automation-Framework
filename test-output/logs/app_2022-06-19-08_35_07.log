@@ -1,0 +1,24 @@
+2022-Jun-19 08:35:12 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jun-19 08:35:15 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/Login
+2022-Jun-19 08:35:16 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jun-19 08:35:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jun-19 08:35:18 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jun-19 08:35:18 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Jun-19 08:35:19 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jun-19 08:35:19 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Jun-19 08:35:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jun-19 08:35:31 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 08:35:42 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 08:35:53 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 08:36:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-Jun-19 08:36:38 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Jun-19 08:36:38 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/\*\[\@id\=\'tileArea\'\]\/div\[\@data\-element\=\'0\'\]\/\/span\[\@class\=\'openViewPanel\'\]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2102d3e3843c1ea5cc6e4b740a77bfe0
+*** Element info: {Using=id, value=//*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']}
+2022-Jun-19 08:36:43 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

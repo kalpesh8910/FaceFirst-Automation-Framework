@@ -1,0 +1,34 @@
+2022-Aug-23 10:49:29 AM [main] INFO  com.driver.DriverFactory - InstantiateDriverObject Exception Log: org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\Khairnar_S\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006D78B3+2193587]
+	Ordinal0 [0x00670681+1771137]
+	Ordinal0 [0x005841A8+803240]
+	Ordinal0 [0x005A29A1+928161]
+	Ordinal0 [0x0059EBC1+912321]
+	Ordinal0 [0x005D23B0+1123248]
+	Ordinal0 [0x005D200A+1122314]
+	Ordinal0 [0x005CD5C6+1103302]
+	Ordinal0 [0x005A77E0+948192]
+	Ordinal0 [0x005A86E6+952038]
+	GetHandleVerifier [0x00980CB2+2738370]
+	GetHandleVerifier [0x009721B8+2678216]
+	GetHandleVerifier [0x007617AA+512954]
+	GetHandleVerifier [0x00760856+509030]
+	Ordinal0 [0x0067743B+1799227]
+	Ordinal0 [0x0067BB68+1817448]
+	Ordinal0 [0x0067BC55+1817685]
+	Ordinal0 [0x00685230+1856048]
+	BaseThreadInitThunk [0x75D3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B87A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B87A6E+238]
+
+2022-Aug-23 10:49:29 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Aug-23 10:49:29 AM [main] INFO  com.web.actions.WebActions - Exception: Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Aug-23 10:49:29 AM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException
+2022-Aug-23 10:49:29 AM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Aug-23 10:49:29 AM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: java.lang.NullPointerException

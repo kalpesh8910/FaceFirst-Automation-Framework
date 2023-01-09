@@ -1,0 +1,158 @@
+2022-Oct-21 10:36:55 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-21 10:37:02 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-21 10:37:03 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-21 10:37:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-21 10:37:03 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-21 10:37:15 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-21 10:37:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-21 10:37:26 AM [main] INFO  com.web.actions.WebActions - Write Text 'Poftest002@gmail.com' on --> id: LoginEmail]
+2022-Oct-21 10:37:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-21 10:37:26 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Oct-21 10:37:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-21 10:37:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:37:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:37:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:38:07 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:38:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:38:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:38:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:38:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:38:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:39:07 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 10:39:17 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-21 10:39:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-21 10:39:48 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-21 10:39:48 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Manage Bookings"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 014180045d66e577ab7de930e293e45b
+*** Element info: {Using=link text, value=Manage Bookings}
+2022-Oct-21 10:40:29 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-21 10:40:29 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Filter By'][@class='filterBtn']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 014180045d66e577ab7de930e293e45b
+*** Element info: {Using=xpath, value=//a[@title='Filter By'][@class='filterBtn']}
+2022-Oct-21 10:41:46 AM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2022-Oct-21 10:41:46 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#QuickSearchInput"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 014180045d66e577ab7de930e293e45b
+*** Element info: {Using=id, value=QuickSearchInput}
+2022-Oct-21 10:42:26 AM [main] INFO  com.web.actions.WebActions - Exception: Write Text 'HU00985993' on 
+2022-Oct-21 10:42:26 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#QuickSearchInput"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 014180045d66e577ab7de930e293e45b
+*** Element info: {Using=id, value=QuickSearchInput}
+2022-Oct-21 10:43:03 AM [main] INFO  com.web.actions.WebActions - Exception: Enter Key.
+2022-Oct-21 10:43:03 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:43:20 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '
+2022-Oct-21 10:43:20 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:43:36 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-21 10:43:36 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:43:53 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:43:53 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:44:10 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-21 10:44:10 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:44:28 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '
+2022-Oct-21 10:44:28 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:44:44 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:44:44 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:45:01 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:45:01 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:45:17 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:45:17 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:45:33 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:45:33 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:45:49 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:45:49 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:46:06 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:46:06 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:46:22 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:46:22 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:46:38 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:46:38 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:46:55 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:46:55 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:47:11 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:47:11 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:47:27 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:47:27 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:47:44 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:47:44 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Oct-21 10:48:00 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Oct-21 10:48:00 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14892
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver

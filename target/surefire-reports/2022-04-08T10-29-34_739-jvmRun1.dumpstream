@@ -1,0 +1,3 @@
+# Created at 2022-04-08T10:29:38.143
+com.web.hooks.CustomReportListener cannot be cast to org.testng.ITestNGListener
+

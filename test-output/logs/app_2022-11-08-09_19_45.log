@@ -1,0 +1,41 @@
+2022-Nov-08 09:19:49 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-08 09:19:53 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-Nov-08 09:19:54 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-08 09:19:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-08 09:19:54 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-08 09:20:06 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-08 09:20:17 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-08 09:20:17 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-08 09:20:18 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-08 09:20:18 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-08 09:20:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-08 09:20:28 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:20:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:20:49 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:20:59 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:21:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:21:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:23:55 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:24:05 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:24:15 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:24:25 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-08 09:24:35 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-08 09:24:47 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-08 09:25:28 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-08 09:25:28 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Create Bookings"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28c882b0a86956d1bc9cc3ea1a7d51d5
+*** Element info: {Using=link text, value=Create Bookings}
+2022-Nov-08 09:25:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: AccountFilter]
+2022-Nov-08 09:25:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='AccountFilter']//option[@value='500984']]
+2022-Nov-08 09:25:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-08 09:25:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-08 09:25:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']//option[@value='DVR-CQF']]
+2022-Nov-08 09:25:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-08 09:25:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-08 09:25:57 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

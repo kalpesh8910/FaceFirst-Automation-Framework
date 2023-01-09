@@ -1,0 +1,41 @@
+2022-Nov-18 09:27:39 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-18 09:27:44 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-18 09:27:44 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 09:27:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 09:27:45 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-18 09:27:58 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-18 09:28:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-18 09:28:09 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-18 09:28:09 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-18 09:28:10 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-18 09:28:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-18 09:28:20 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-18 09:28:42 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-18 09:28:54 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_1]
+2022-Nov-18 09:28:54 AM [main] INFO  com.web.actions.WebActions - Write Text '221118092844' on --> id: UnitID_1]
+2022-Nov-18 09:28:56 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_1]
+2022-Nov-18 09:28:56 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR221118092844' on --> id: JobReference_1]
+2022-Nov-18 09:28:58 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_1]
+2022-Nov-18 09:28:58 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD221118092844' on --> id: JobDescription_1]
+2022-Nov-18 09:28:59 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_1]
+2022-Nov-18 09:28:59 AM [main] INFO  com.web.actions.WebActions - Write Text '16.5' on --> id: UnitLength_1]
+2022-Nov-18 09:29:01 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_1]
+2022-Nov-18 09:29:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_1]
+2022-Nov-18 09:29:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='23']]
+2022-Nov-18 09:29:04 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_1]
+2022-Nov-18 09:29:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectSailing_1]
+2022-Nov-18 09:29:15 AM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [], --> id: SelectSailing_1]
+2022-Nov-18 09:29:15 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+2022-Nov-18 09:29:15 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-18 09:29:17 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-18 09:29:17 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-18 09:29:17 AM [main] INFO  com.web.actions.WebActions - Object Text : LI00286903, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-18 09:29:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-18 09:29:24 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-18 09:29:24 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-18 09:29:24 AM [main] INFO  com.web.actions.WebActions - Object Text : LI00286903, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-18 09:29:27 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

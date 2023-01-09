@@ -1,0 +1,4 @@
+2022-Oct-19 11:50:11 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 11:50:16 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-19 11:51:36 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '--> link text: Book Now]
+2022-Oct-19 11:51:36 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (89f9794267f2e00bf73bf31357b40ae4)] -> link text: Book Now] (tried for 60 second(s) with 500 milliseconds interval)

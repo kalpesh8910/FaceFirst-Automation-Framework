@@ -1,0 +1,55 @@
+2022-Oct-05 06:33:36 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-05 06:33:41 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-05 06:33:48 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-05 06:34:01 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-05 06:34:12 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-05 06:34:12 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-05 06:34:12 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-05 06:34:12 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-05 06:34:12 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-05 06:34:22 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:34:33 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:34:43 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:34:53 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:35:03 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:35:13 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:35:23 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:35:33 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:35:43 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:35:53 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-05 06:36:33 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-05 06:36:33 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='mouseDevice']//a[@href='/ManageBookings']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9712ae36dfe2d0e511d97f7555d2116
+*** Element info: {Using=xpath, value=//nav[@class='mouseDevice']//a[@href='/ManageBookings']}
+2022-Oct-05 06:37:15 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-05 06:37:15 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='actionColumns']//span[@class='helpIcon'][@data-element='1']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9712ae36dfe2d0e511d97f7555d2116
+*** Element info: {Using=xpath, value=//div[@class='actionColumns']//span[@class='helpIcon'][@data-element='1']}
+2022-Oct-05 06:38:58 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '
+2022-Oct-05 06:38:58 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='actionColumns']//span[@class='helpIcon'][@data-element='1']' (tried for 60 second(s) with 500 milliseconds interval)
+2022-Oct-05 06:39:10 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-05 06:39:10 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='contentHolder'][@id='panelGMRPBNHelpPanelBody']//a[text()='Brexit page.'][@href='https://www.pofreight.com/brexit/larne-cairnryan' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='contentHolder'][@id='panelGMRPBNHelpPanelBody']//a[text()='Brexit page.'][@href='https://www.pofreight.com/brexit/larne-cairnryan'' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9712ae36dfe2d0e511d97f7555d2116
+*** Element info: {Using=xpath, value=//div[@class='contentHolder'][@id='panelGMRPBNHelpPanelBody']//a[text()='Brexit page.'][@href='https://www.pofreight.com/brexit/larne-cairnryan'}
+2022-Oct-05 06:40:10 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '
+2022-Oct-05 06:40:10 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='contentHolder'][@id='panelGMRPBNHelpPanelBody']//a[text()='Brexit page.'][@href='https://www.pofreight.com/brexit/larne-cairnryan'' (tried for 60 second(s) with 500 milliseconds interval)
+2022-Oct-05 06:40:11 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

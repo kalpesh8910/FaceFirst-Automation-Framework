@@ -1,0 +1,15 @@
+2022-Nov-04 03:02:33 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-04 03:02:38 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-04 03:02:38 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-04 03:02:39 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-04 03:02:39 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-04 03:02:52 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-04 03:03:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-04 03:03:02 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Nov-04 03:03:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-04 03:03:03 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Nov-04 03:03:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-04 03:03:19 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> class name: cancel]
+2022-Nov-04 03:03:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> class name: cancel]
+2022-Nov-04 03:04:52 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '
+2022-Nov-04 03:04:52 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='cancelPopUpBox']/div[1]//div[@class='btnColOne']//button[@class='btn-primary'][text()='Yes']' (tried for 60 second(s) with 500 milliseconds interval)

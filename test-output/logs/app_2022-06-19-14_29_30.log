@@ -1,0 +1,20 @@
+2022-Jun-19 14:29:35 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jun-19 14:29:39 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/Login
+2022-Jun-19 14:29:39 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jun-19 14:29:41 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jun-19 14:29:41 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jun-19 14:29:41 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Jun-19 14:29:41 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jun-19 14:29:42 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Jun-19 14:29:42 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jun-19 14:29:54 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 14:30:05 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 14:30:16 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 14:30:27 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-Jun-19 14:30:29 PM [main] INFO  com.web.actions.WebActions - Write Text To Alert : --> xpath: //a[@class='helpIcon']]
+2022-Jun-19 14:30:29 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='helpIcon']]
+2022-Jun-19 14:30:29 PM [main] INFO  com.web.actions.WebActions - Object Text : ?, --> xpath: //a[@class='helpIcon']]
+2022-Jun-19 14:30:29 PM [main] INFO  com.web.actions.WebActions - Object Text : ?, --> xpath: //a[@class='helpIcon']]
+2022-Jun-19 14:30:30 PM [main] INFO  com.web.actions.WebActions - Object Text : ?, --> xpath: //a[@class='helpIcon']]
+2022-Jun-19 14:30:30 PM [main] INFO  com.web.actions.WebActions - Object Text : ?, --> xpath: //a[@class='helpIcon']]
+2022-Jun-19 14:30:34 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

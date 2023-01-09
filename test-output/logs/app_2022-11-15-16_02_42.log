@@ -1,0 +1,34 @@
+2022-Nov-15 16:02:48 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-15 16:02:52 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-15 16:02:53 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 16:02:53 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 16:02:53 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-15 16:03:05 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-15 16:03:16 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-15 16:03:16 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-15 16:03:16 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-15 16:03:17 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-15 16:03:17 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-15 16:03:27 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-15 16:03:37 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-15 16:03:47 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-15 16:03:57 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 16:03:58 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 16:03:58 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-15 16:04:10 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-15 16:04:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-15 16:04:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='LAR-CYN']]
+2022-Nov-15 16:04:21 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: scSelectDate]
+2022-Nov-15 16:04:21 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: scSelectDate]
+2022-Nov-15 16:04:21 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='18']]
+2022-Nov-15 16:04:24 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-15 16:04:25 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectSailing_0]
+2022-Nov-15 16:04:35 PM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [European Causeway , 04:00], --> id: SelectSailing_0]
+2022-Nov-15 16:04:35 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: European Causeway , 04:00
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+2022-Nov-15 16:04:37 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-15 16:04:37 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-15 16:04:38 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: StepOneContinue]

@@ -1,0 +1,15 @@
+2022-Apr-08 10:32:12 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Apr-08 10:32:15 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cm.azurewebsites.net/
+2022-Apr-08 10:32:15 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Apr-08 10:32:17 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Apr-08 10:32:17 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Apr-08 10:32:18 AM [main] INFO  com.web.actions.WebActions - Write Text 'martintrux' on --> id: LoginEmail]
+2022-Apr-08 10:32:18 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Apr-08 10:32:18 AM [main] INFO  com.web.actions.WebActions - Write Text 'Dhoni@007' on --> id: LoginPass]
+2022-Apr-08 10:32:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Apr-08 10:32:34 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Apr-08 10:32:45 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Apr-08 10:32:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: AccountFilter]
+2022-Apr-08 10:32:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='AccountFilter']//option[@value='248500']]
+2022-Apr-08 10:32:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Apr-08 10:32:58 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

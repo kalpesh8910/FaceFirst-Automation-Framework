@@ -1,0 +1,46 @@
+2022-Oct-08 08:43:13 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-08 08:43:18 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-08 08:43:24 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-08 08:43:36 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-08 08:43:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-08 08:43:46 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-08 08:43:47 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-08 08:43:47 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-08 08:43:47 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-08 08:43:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:44:07 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:44:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:44:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:44:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:44:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:44:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:45:07 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:45:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:45:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-08 08:47:11 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '
+2022-Oct-08 08:47:11 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //section//a[contains(@href,'CreateBookings')]' (tried for 60 second(s) with 500 milliseconds interval)
+2022-Oct-08 08:47:51 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-08 08:47:51 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//section//a[contains(@href,'CreateBookings')]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f32bef6fe7f1ebbab8bfeb4b62a0a61d
+*** Element info: {Using=xpath, value=//section//a[contains(@href,'CreateBookings')]}
+2022-Oct-08 08:48:31 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-08 08:48:31 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#route"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f32bef6fe7f1ebbab8bfeb4b62a0a61d
+*** Element info: {Using=id, value=route}
+2022-Oct-08 08:48:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']//option[@value='TIL-ZEE']]
+2022-Oct-08 08:48:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Oct-08 08:48:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Oct-08 08:48:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-08 08:48:49 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

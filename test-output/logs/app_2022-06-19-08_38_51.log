@@ -1,0 +1,21 @@
+2022-Jun-19 08:38:57 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jun-19 08:39:00 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/Login
+2022-Jun-19 08:39:00 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jun-19 08:39:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jun-19 08:39:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jun-19 08:39:02 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Jun-19 08:39:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jun-19 08:39:03 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Jun-19 08:39:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jun-19 08:39:15 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 08:39:26 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 08:39:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 08:39:49 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-Jun-19 08:39:52 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Jun-19 08:39:52 AM [main] INFO  com.web.actions.WebActions - Object Text : HU00972687, --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Jun-19 08:39:52 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: QuickSearchInput]
+2022-Jun-19 08:39:53 AM [main] INFO  com.web.actions.WebActions - Write Text 'HU00972687' on --> id: QuickSearchInput]
+2022-Jun-19 08:39:53 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Jun-19 08:39:53 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Jun-19 08:39:53 AM [main] INFO  com.web.actions.WebActions - Object Text : HU00972687, --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Jun-19 08:39:54 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

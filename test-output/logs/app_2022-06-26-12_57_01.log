@@ -1,0 +1,42 @@
+2022-Jun-26 12:57:05 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jun-26 12:57:09 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Jun-26 12:57:10 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jun-26 12:57:12 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jun-26 12:57:12 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jun-26 12:57:12 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Jun-26 12:57:13 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jun-26 12:57:13 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Jun-26 12:57:13 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jun-26 12:57:16 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-Jun-26 12:57:27 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='closeAds']]
+2022-Jun-26 12:57:27 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Jun-26 12:57:41 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Jun-26 12:57:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']]
+2022-Jun-26 12:57:51 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Europoort to Hull], --> xpath: //select[@id='RouteFilter']]
+2022-Jun-26 12:57:52 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Jun-26 12:57:52 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Jun-26 12:57:52 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Accompanied Vehicle( SDV )], --> id: UnitType_0]
+2022-Jun-26 12:57:52 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: GMRSDVMessageText_0]
+2022-Jun-26 12:57:52 PM [main] INFO  com.web.actions.WebActions - Object Text : To book a SDV on this route, you must have a valid GMR. More information can be found on our Brexit page, --> id: GMRSDVMessageText_0]
+2022-Jun-26 12:57:53 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[1]/a[@href='https://www.pofreight.com/brexit-advice']]
+2022-Jun-26 12:57:53 PM [main] INFO  com.web.actions.WebBrowserActions - Close All Opened Tabs Except First Tab
+2022-Jun-26 12:57:53 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Jun-26 12:57:53 PM [main] INFO  com.web.actions.WebActions - Write Text 'tvHCC' on --> id: UnitID_0]
+2022-Jun-26 12:57:54 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Jun-26 12:57:54 PM [main] INFO  com.web.actions.WebActions - Write Text 'EqIeG' on --> id: JobReference_0]
+2022-Jun-26 12:57:54 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Jun-26 12:57:54 PM [main] INFO  com.web.actions.WebActions - Write Text 'RAJVB' on --> id: JobDescription_0]
+2022-Jun-26 12:57:54 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Jun-26 12:57:55 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Jun-26 12:57:55 PM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Jun-26 12:57:55 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Jun-26 12:57:55 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Jun-26 12:57:55 PM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Jun-26 12:57:55 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Jun-26 12:57:56 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Jun-26 12:58:06 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Jun-26 12:58:16 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='1']]
+2022-Jun-26 12:58:19 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Jun-26 12:58:50 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2022-Jun-26 12:59:30 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2022-Jun-26 12:59:31 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

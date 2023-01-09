@@ -1,0 +1,89 @@
+2022-May-06 08:22:57 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-06 08:23:01 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-06 08:23:01 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-06 08:23:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-06 08:23:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-06 08:23:03 AM [main] INFO  com.web.actions.WebActions - Write Text 'preethi.natarajan@poferries.com' on --> id: LoginEmail]
+2022-May-06 08:23:04 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-06 08:23:04 AM [main] INFO  com.web.actions.WebActions - Write Text 'Pret@1234' on --> id: LoginPass]
+2022-May-06 08:23:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-May-06 08:23:16 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-May-06 08:23:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-May-06 08:23:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-May-06 08:23:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='DVR-CQF']]
+2022-May-06 08:23:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-May-06 08:23:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-May-06 08:23:31 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-May-06 08:23:41 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-May-06 08:23:42 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-May-06 08:23:42 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-May-06 08:23:42 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-May-06 08:23:42 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-May-06 08:23:54 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-May-06 08:24:10 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: rev-vehUnitId]
+2022-May-06 08:24:10 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: rev-vehLength]
+2022-May-06 08:24:11 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: rev-vehHeight]
+2022-May-06 08:24:11 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: rev-vehWidth]
+2022-May-06 08:24:11 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: rev-vehWeight]
+2022-May-06 08:24:11 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: rev-adults]
+2022-May-06 08:24:12 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-May-06 08:24:29 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-06 08:24:29 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b38416ca2e155b765d446e9c7063f02c
+2022-May-06 08:24:46 AM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-May-06 08:24:46 AM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b38416ca2e155b765d446e9c7063f02c
+2022-May-06 08:24:49 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-06 08:24:52 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-06 08:24:52 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-06 08:24:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-06 08:24:54 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-06 08:24:54 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-May-06 08:24:54 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-06 08:24:55 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-May-06 08:24:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-May-06 08:25:10 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-May-06 08:25:22 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-May-06 08:25:32 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-May-06 08:25:33 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: AccountFilter]
+2022-May-06 08:25:53 AM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [248500, P O Ferrymasters Limited], --> id: AccountFilter]
+2022-May-06 08:25:53 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 248500, P O Ferrymasters Limited
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+2022-May-06 08:25:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']]
+2022-May-06 08:25:53 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Dover to Calais], --> xpath: //select[@id='RouteFilter']]
+2022-May-06 08:25:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: numberOfBookingsFilter]
+2022-May-06 08:25:54 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [1], --> id: numberOfBookingsFilter]
+2022-May-06 08:25:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-May-06 08:25:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-May-06 08:25:54 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Van( VAN )], --> id: UnitType_0]
+2022-May-06 08:25:55 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-May-06 08:25:55 AM [main] INFO  com.web.actions.WebActions - Write Text 'SCNOV191800' on --> id: UnitID_0]
+2022-May-06 08:25:55 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-May-06 08:25:55 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR0000' on --> id: JobReference_0]
+2022-May-06 08:25:56 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-May-06 08:25:56 AM [main] INFO  com.web.actions.WebActions - Write Text 'DES0000' on --> id: JobDescription_0]
+2022-May-06 08:25:56 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-May-06 08:25:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [1], --> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: PluginRequired_0]
+2022-May-06 08:25:57 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-May-06 08:25:58 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-May-06 08:26:28 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 

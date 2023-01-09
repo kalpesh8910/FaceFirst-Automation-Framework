@@ -1,0 +1,287 @@
+2022-May-09 09:45:31 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-09 09:45:34 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-09 09:45:35 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-09 09:45:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-09 09:45:37 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-09 09:45:37 AM [main] INFO  com.web.actions.WebActions - Write Text 'preethi.natarajan@poferries.com' on --> id: LoginEmail]
+2022-May-09 09:45:38 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-09 09:45:38 AM [main] INFO  com.web.actions.WebActions - Write Text 'Pret@1234' on --> id: LoginPass]
+2022-May-09 09:45:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-May-09 09:45:40 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-May-09 09:45:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-May-09 09:45:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-May-09 09:45:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='DVR-CQF']]
+2022-May-09 09:45:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-May-09 09:45:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-May-09 09:45:58 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-May-09 09:46:08 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-May-09 09:46:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-May-09 09:46:08 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-May-09 09:46:09 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-May-09 09:46:09 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-May-09 09:46:20 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-May-09 09:46:36 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-May-09 09:46:37 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-May-09 09:46:37 AM [main] INFO  com.web.actions.WebActions - Object Text : 2.5 metre, --> id: rev-vehHeight]
+2022-May-09 09:46:37 AM [main] INFO  com.web.actions.WebActions - Object Text : 2.5 metre, --> id: rev-vehWidth]
+2022-May-09 09:46:37 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-May-09 09:46:38 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-May-09 09:46:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-May-09 09:46:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-May-09 09:46:55 AM [main] INFO  com.web.actions.WebActions - Object Text : £109.50, --> id: amount]
+2022-May-09 09:46:56 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-May-09 09:46:56 AM [main] INFO  com.web.actions.WebActions - Write Text '4111111111111111' on --> id: cardNumber]
+2022-May-09 09:46:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-May-09 09:46:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-May-09 09:46:57 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-May-09 09:46:57 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-May-09 09:46:58 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-May-09 09:46:58 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-May-09 09:47:17 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-May-09 09:47:18 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-May-09 09:47:21 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-09 09:47:24 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-09 09:47:24 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-09 09:47:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-09 09:47:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-09 09:47:26 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-May-09 09:47:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-09 09:47:27 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-May-09 09:47:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-May-09 09:47:42 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-May-09 09:47:44 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-May-09 09:47:44 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CreateBookings" class="banCreateBooking" style="color: red; background: SkyBlue; border: 2px solid red;">...</a> is not clickable at point (233, 421). Other element would receive the click: <div class="allAddBoxes">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27796aab94ed335c84d06b77f94ff6df
+2022-May-09 09:48:15 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:48:15 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#generateFormButton"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27796aab94ed335c84d06b77f94ff6df
+*** Element info: {Using=id, value=generateFormButton}
+2022-May-09 09:49:19 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:49:19 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27796aab94ed335c84d06b77f94ff6df
+*** Element info: {Using=id, value=AccountFilter}
+2022-May-09 09:49:44 AM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [500984, Martintrux Group Ltd.], 
+2022-May-09 09:49:44 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27796aab94ed335c84d06b77f94ff6df
+*** Element info: {Using=id, value=AccountFilter}
+2022-May-09 09:50:08 AM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-May-09 09:50:08 AM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27796aab94ed335c84d06b77f94ff6df
+2022-May-09 09:50:11 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-09 09:50:14 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-09 09:50:14 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-09 09:50:16 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-09 09:50:16 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-09 09:50:17 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-May-09 09:50:17 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-09 09:50:17 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-May-09 09:50:17 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-May-09 09:50:33 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-May-09 09:50:34 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-May-09 09:50:34 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CreateBookings" class="banCreateBooking" style="color: red; background: SkyBlue; border: 2px solid red;">...</a> is not clickable at point (233, 421). Other element would receive the click: <div class="allAddBoxes">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+2022-May-09 09:50:35 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //nav//a[contains(@href,'CreateBookings')]]
+2022-May-09 09:50:35 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/CreateBookings" title="Create Bookings" class=" " style="color: red; background: SkyBlue; border: 2px solid red;">...</a> is not clickable at point (159, 149). Other element would receive the click: <div class="allAddBoxes">...</div>
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+2022-May-09 09:51:11 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:51:11 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#generateFormButton"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=generateFormButton}
+2022-May-09 09:51:52 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:51:52 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#SubmitBooking"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=SubmitBooking}
+2022-May-09 09:51:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:51:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:51:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:51:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:52:36 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:52:36 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#RouteFilter"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=RouteFilter}
+2022-May-09 09:53:16 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:53:16 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='RouteFilter']//option[@value='DUB-LIV']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=xpath, value=//select[@id='RouteFilter']//option[@value='DUB-LIV']}
+2022-May-09 09:53:56 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:53:56 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#generateFormButton"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=generateFormButton}
+2022-May-09 09:54:37 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:54:37 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#SubmitBooking"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=SubmitBooking}
+2022-May-09 09:54:41 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:54:41 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:54:41 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:54:41 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:55:21 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:55:21 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitType_0"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=UnitType_0}
+2022-May-09 09:56:31 AM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2022-May-09 09:56:31 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitID_0"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=UnitID_0}
+2022-May-09 09:57:12 AM [main] INFO  com.web.actions.WebActions - Exception: Write Text '1234567890123456' on 
+2022-May-09 09:57:12 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitID_0"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=UnitID_0}
+2022-May-09 09:57:52 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:57:52 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#SubmitBooking"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=SubmitBooking}
+2022-May-09 09:57:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:57:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:57:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:57:56 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 09:58:36 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:58:36 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='drivers_0'][@name='drivers']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=xpath, value=//select[@id='drivers_0'][@name='drivers']}
+2022-May-09 09:59:16 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:59:16 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='drivers_0']//option[@value='1']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=xpath, value=//select[@id='drivers_0']//option[@value='1']}
+2022-May-09 09:59:57 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 09:59:57 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#SubmitBooking"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=SubmitBooking}
+2022-May-09 10:00:01 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 10:00:01 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 10:00:01 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 10:00:01 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (73ddc72457cce55579840ff0c877c034)] -
+2022-May-09 10:00:41 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-May-09 10:00:41 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#PluginCheckBox_0"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=PluginCheckBox_0}
+2022-May-09 10:01:41 AM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2022-May-09 10:01:41 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitTemperature_0"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ddc72457cce55579840ff0c877c034
+*** Element info: {Using=id, value=UnitTemperature_0}

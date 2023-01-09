@@ -1,0 +1,33 @@
+2022-Nov-02 09:32:17 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-02 09:32:21 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-02 09:32:22 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-02 09:32:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-02 09:32:22 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-02 09:32:35 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-02 09:32:45 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-02 09:32:45 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-02 09:32:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-02 09:32:46 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-02 09:32:46 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-02 09:32:56 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:33:06 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:33:16 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:33:26 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:33:36 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:33:46 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:33:56 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:34:06 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:34:16 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:34:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-02 09:34:37 AM [main] INFO  com.web.actions.WebActions - Object Text : WayBill No: HU01001493, --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-02 09:34:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-02 09:34:37 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-02 09:34:38 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //div[@id='showTiles']/div[1]//a[@class='cancel'][text()='Cancel']]
+2022-Nov-02 09:34:38 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-element="0" class="cancel" style="color: red; background: SkyBlue; border: 2px solid red;">...</a> is not clickable at point (914, 499). Other element would receive the click: <div class="btnColOne">...</div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 830d24b58fb4ac82352c94e566f6d222
+2022-Nov-02 09:34:39 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

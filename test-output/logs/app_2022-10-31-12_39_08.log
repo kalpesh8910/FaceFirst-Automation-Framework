@@ -1,0 +1,30 @@
+2022-Oct-31 12:39:13 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-31 12:39:42 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-31 12:39:42 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:39:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:39:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-31 12:39:58 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-31 12:40:09 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-31 12:40:09 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-31 12:40:09 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-31 12:40:09 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-31 12:40:10 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-31 12:40:12 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-Oct-31 12:40:22 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='closeAds']]
+2022-Oct-31 12:40:22 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:40:23 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:40:34 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-31 12:40:48 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: ChooseAccount]
+2022-Oct-31 12:40:48 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [551370, North Sea Express NV], --> id: ChooseAccount]
+2022-Oct-31 12:40:48 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:40:48 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:40:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Home]
+2022-Oct-31 12:40:50 PM [main] INFO  com.web.actions.WebActions - Object Text : 551370, North Sea Express NV, --> xpath: //section[@class='ccAccountBand']//a/span]
+2022-Oct-31 12:40:50 PM [main] INFO  com.poferries.tourist.web.stepDefinitions.Steps - Home Page Default Account is 551370, North Sea Express NV 
+2022-Oct-31 12:40:50 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:40:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:41:04 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-31 12:41:17 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: AccountFilter]
+2022-Oct-31 12:41:18 PM [main] INFO  com.web.actions.WebActions - First Selected Option value : 551370, North Sea Express NV, --> id: AccountFilter]
+2022-Oct-31 12:41:18 PM [main] INFO  com.poferries.tourist.web.stepDefinitions.Steps - Home Page Default Account is 551370, North Sea Express NV 
+2022-Oct-31 12:41:18 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

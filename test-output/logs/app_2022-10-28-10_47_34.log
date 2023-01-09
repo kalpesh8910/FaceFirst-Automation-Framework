@@ -1,0 +1,75 @@
+2022-Oct-28 10:47:38 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-28 10:47:49 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-28 10:47:49 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-28 10:47:49 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-28 10:47:50 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-28 10:48:02 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-28 10:48:12 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-28 10:48:13 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Oct-28 10:48:13 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-28 10:48:13 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Oct-28 10:48:13 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-28 10:48:44 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-28 10:48:44 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"New Booking"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2bd0775d50e2ba3434591b07a48a8c1
+*** Element info: {Using=link text, value=New Booking}
+2022-Oct-28 10:48:54 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-28 10:48:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-28 10:49:06 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-28 10:49:17 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route_0]
+2022-Oct-28 10:49:17 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Dover to Calais], --> id: Route_0]
+2022-Oct-28 10:49:18 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Oct-28 10:49:19 AM [main] INFO  com.web.actions.WebActions - Write Text 'UID1028104918' on --> id: UnitID_0]
+2022-Oct-28 10:49:19 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Oct-28 10:49:19 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221028104919' on --> id: JobReference_0]
+2022-Oct-28 10:49:19 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Oct-28 10:49:20 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_10_28_10_49_19' on --> id: JobDescription_0]
+2022-Oct-28 10:49:20 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Oct-28 10:49:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Oct-28 10:49:20 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [1], --> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Oct-28 10:49:20 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Oct-28 10:49:20 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Oct-28 10:49:21 AM [main] INFO  com.web.actions.WebActions - Write Text '16' on --> id: UnitLength_0]
+2022-Oct-28 10:49:21 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-28 10:49:35 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: BillingAddrCB]
+2022-Oct-28 10:49:35 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //input[@id='paymentTermsCheckBox']]
+2022-Oct-28 10:49:35 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Oct-28 10:49:42 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Oct-28 10:49:42 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Oct-28 10:49:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Oct-28 10:49:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Oct-28 10:49:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Oct-28 10:49:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Oct-28 10:49:43 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Oct-28 10:49:44 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Oct-28 10:50:16 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-28 10:50:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //*[@id='confirm-booking']//a[text()='Amend booking']
+2022-Oct-28 10:50:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='confirm-booking']//a[text()='Amend booking']]
+2022-Oct-28 10:50:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Oct-28 10:50:37 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@title='Home'][@class=' ']]
+2022-Oct-28 10:50:37 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2bd0775d50e2ba3434591b07a48a8c1
+2022-Oct-28 10:50:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //div[@data-element='0']//a[@class='amend']
+2022-Oct-28 10:50:47 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Oct-28 10:50:58 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@title='Manage bookings'][@class=' ']]
+2022-Oct-28 10:50:58 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a2bd0775d50e2ba3434591b07a48a8c1
+2022-Oct-28 10:51:08 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //div[@data-element='0']//a[@class='amend']
+2022-Oct-28 10:51:08 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Oct-28 10:51:09 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

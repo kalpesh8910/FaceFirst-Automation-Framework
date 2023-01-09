@@ -1,0 +1,18 @@
+2022-Nov-18 15:40:55 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-18 15:41:12 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-18 15:41:13 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 15:41:13 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 15:41:13 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-18 15:41:28 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-18 15:41:38 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-18 15:41:39 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-18 15:41:39 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-18 15:41:39 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-18 15:41:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-18 15:41:49 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-18 15:42:00 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 15:42:00 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-18 15:42:00 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-18 15:42:18 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-18 15:42:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-18 15:42:29 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

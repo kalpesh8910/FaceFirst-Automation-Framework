@@ -1,0 +1,32 @@
+2022-Nov-16 12:25:53 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-16 12:25:58 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-16 12:25:58 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:25:58 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:25:58 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-16 12:26:10 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-16 12:26:21 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-16 12:26:21 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-16 12:26:21 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-16 12:26:22 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-16 12:26:22 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-16 12:26:32 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-16 12:26:42 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-16 12:26:52 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-16 12:27:02 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:27:02 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:27:03 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-16 12:27:15 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-16 12:27:25 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-16 12:27:26 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CQF-DUB']]
+2022-Nov-16 12:27:26 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SailingDateDUCA]
+2022-Nov-16 12:27:26 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SailingDateDUCA]
+2022-Nov-16 12:27:26 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='17']]
+2022-Nov-16 12:27:37 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-16 12:27:37 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-16 12:27:49 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-16 12:27:59 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-16 12:27:59 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-16 12:28:00 PM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-16 12:28:00 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-16 12:28:00 PM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-16 12:28:12 PM [main] INFO  com.web.actions.WebActions - Click on :

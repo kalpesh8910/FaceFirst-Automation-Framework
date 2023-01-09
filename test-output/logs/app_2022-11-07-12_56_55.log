@@ -1,0 +1,320 @@
+2022-Nov-07 12:57:00 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-07 12:57:06 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-07 12:57:06 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 12:57:07 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 12:57:07 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-07 12:57:19 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 12:57:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-07 12:57:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-07 12:57:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-07 12:57:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-07 12:57:30 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-07 12:57:40 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:57:50 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:58:00 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:58:11 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:58:21 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:58:31 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:58:41 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:58:51 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:59:01 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:59:11 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 12:59:21 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-07 12:59:34 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 12:59:45 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-07 12:59:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-07 12:59:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-07 12:59:57 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-07 12:59:58 PM [main] INFO  com.web.actions.WebActions - Write Text '221107125957' on --> id: UnitID_0]
+2022-Nov-07 12:59:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-07 12:59:58 PM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221107125958' on --> id: JobReference_0]
+2022-Nov-07 12:59:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-07 12:59:59 PM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_07_12_59_58' on --> id: JobDescription_0]
+2022-Nov-07 12:59:59 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-07 12:59:59 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-07 13:00:00 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-07 13:00:00 PM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-07 13:00:00 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-07 13:00:00 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-07 13:00:01 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-07 13:00:06 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-07 13:00:06 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-07 13:00:06 PM [main] INFO  com.web.actions.WebActions - Object Text : DO00040527, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-07 13:00:08 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-07 13:00:08 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-07 13:00:08 PM [main] INFO  com.web.actions.WebActions - Object Text : DO00040527, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-07 13:00:11 PM [main] INFO  com.web.actions.WebActions - Click on :--> class name: cancel]
+2022-Nov-07 13:00:15 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='cancelPopUpBox']/div[1]//div[@class='btnColOne']//button[@class='btn-primary'][text()='Yes']]
+2022-Nov-07 13:00:15 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='cancelPopUpBox']/div[1]//div[@class='btnColOne']//button[@class='btn-primary'][text()='Yes']]
+2022-Nov-07 13:00:18 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:00:20 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:00:20 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+2022-Nov-07 13:00:50 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:00:50 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Track"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=link text, value=Track}
+2022-Nov-07 13:01:32 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:01:32 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Filter By'][@class='filterBtn']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=xpath, value=//a[@title='Filter By'][@class='filterBtn']}
+2022-Nov-07 13:02:13 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:02:13 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='Status']/..//div[@name='multiselectFormText']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=xpath, value=//select[@id='Status']/..//div[@name='multiselectFormText']}
+2022-Nov-07 13:02:53 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:02:53 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='Status']/..//label[text()='Cancelled']/../input[@type='checkbox']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=xpath, value=//select[@id='Status']/..//label[text()='Cancelled']/../input[@type='checkbox']}
+2022-Nov-07 13:03:33 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:03:33 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#apply"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=id, value=apply}
+2022-Nov-07 13:04:14 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:04:14 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='panelFilter']//a[@class='close icon']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=xpath, value=//div[@id='panelFilter']//a[@class='close icon']}
+2022-Nov-07 13:05:14 PM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2022-Nov-07 13:05:14 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#QuickSearchInput"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=id, value=QuickSearchInput}
+2022-Nov-07 13:05:54 PM [main] INFO  com.web.actions.WebActions - Exception: Write Text 'DO00040484' on 
+2022-Nov-07 13:05:54 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#QuickSearchInput"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=id, value=QuickSearchInput}
+2022-Nov-07 13:06:34 PM [main] INFO  com.web.actions.WebActions - Exception: Enter Key.
+2022-Nov-07 13:06:34 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#QuickSearchInput"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19be6842c09137bc1abb59229329a6ce
+*** Element info: {Using=id, value=QuickSearchInput}
+2022-Nov-07 13:06:48 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-07 13:06:51 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-07 13:06:56 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-07 13:06:57 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:06:57 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:06:57 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-07 13:07:10 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:07:20 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-07 13:07:20 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-07 13:07:20 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-07 13:07:21 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-07 13:07:21 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-07 13:07:31 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:07:41 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:07:51 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:08:01 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:08:11 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:08:21 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:08:31 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:08:41 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:08:51 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:09:01 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:09:13 PM [main] INFO  com.web.actions.WebActions - Object Text : WayBill No: HU01001806, --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-07 13:09:14 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-07 13:09:14 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-07 13:09:14 PM [main] INFO  com.web.actions.WebActions - Object Text : 551370 , North Sea Express NV, --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-07 13:09:14 PM [main] INFO  com.web.actions.WebActions - Object Text : Hull, --> xpath: //*[@id='showDetails']//label[text()='From:']/../*[@class='data']]
+2022-Nov-07 13:09:14 PM [main] INFO  com.web.actions.WebActions - Object Text : Europoort, --> xpath: //*[@id='showDetails']//label[text()='To:']/../*[@class='data']]
+2022-Nov-07 13:09:14 PM [main] INFO  com.web.actions.WebActions - Object Text : HU01001806, --> xpath: //*[@id='showDetails']//label[text()='WayBill No: ']/../*[@class='data']]
+2022-Nov-07 13:09:15 PM [main] INFO  com.web.actions.WebActions - Object Text : 07 Nov 2022, --> xpath: //*[@id='showDetails']//label[text()='Booking Date:']/../*[@class='data']]
+2022-Nov-07 13:09:15 PM [main] INFO  com.web.actions.WebActions - Object Text : CAR, --> xpath: //*[@id='showDetails']//label[text()='Unit Type: ']/../*[@class='data']]
+2022-Nov-07 13:09:15 PM [main] INFO  com.web.actions.WebActions - Object Text : KR0711221304, --> xpath: //*[@id='showDetails']//label[text()='Unit ID: ']/../*[@class='data']]
+2022-Nov-07 13:09:15 PM [main] INFO  com.web.actions.WebActions - Object Text : 3, --> xpath: //*[@id='showDetails']//label[text()='Unit Length (M):']/../*[@class='data']]
+2022-Nov-07 13:09:15 PM [main] INFO  com.web.actions.WebActions - Object Text : No, --> xpath: //*[@id='showDetails']//label[text()='Plug-in:']/../*[@class='data']]
+2022-Nov-07 13:09:16 PM [main] INFO  com.web.actions.WebActions - Object Text : 1, --> xpath: //*[@id='showDetails']//label[text()='Drivers:']/../*[@class='data']]
+2022-Nov-07 13:09:16 PM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Temp (°C):']/../*[@class='data']]
+2022-Nov-07 13:09:16 PM [main] INFO  com.web.actions.WebActions - Object Text : KR0711221304, --> xpath: //*[@id='showDetails']//label[text()='Job Reference:']/../*[@class='data']]
+2022-Nov-07 13:09:16 PM [main] INFO  com.web.actions.WebActions - Object Text : BLUEBERRIES, --> xpath: //*[@id='showDetails']//label[text()='Description:']/../*[@class='data']]
+2022-Nov-07 13:09:16 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //h2[text()='Booking Details']/../..//a[@class='close icon']]
+2022-Nov-07 13:09:16 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-07 13:09:19 PM [main] INFO  com.web.actions.WebActions - Click on :--> class name: copy]
+2022-Nov-07 13:09:21 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_1]
+2022-Nov-07 13:09:22 PM [main] INFO  com.web.actions.WebActions - Write Text '221107010921' on --> id: UnitID_1]
+2022-Nov-07 13:09:23 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_1]
+2022-Nov-07 13:09:23 PM [main] INFO  com.web.actions.WebActions - Write Text 'JR221107010921' on --> id: JobReference_1]
+2022-Nov-07 13:09:24 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_1]
+2022-Nov-07 13:09:25 PM [main] INFO  com.web.actions.WebActions - Write Text 'JD221107010921' on --> id: JobDescription_1]
+2022-Nov-07 13:09:26 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_1]
+2022-Nov-07 13:09:26 PM [main] INFO  com.web.actions.WebActions - Write Text '16.5' on --> id: UnitLength_1]
+2022-Nov-07 13:09:27 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_1]
+2022-Nov-07 13:09:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_1]
+2022-Nov-07 13:09:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='12']]
+2022-Nov-07 13:09:31 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_1]
+2022-Nov-07 13:09:31 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectSailing_1]
+2022-Nov-07 13:09:41 PM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [], --> id: SelectSailing_1]
+2022-Nov-07 13:09:41 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+2022-Nov-07 13:09:42 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-07 13:09:44 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-07 13:09:44 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-07 13:09:44 PM [main] INFO  com.web.actions.WebActions - Object Text : HU01001808, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-07 13:09:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-07 13:09:50 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-07 13:09:51 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-07 13:09:51 PM [main] INFO  com.web.actions.WebActions - Object Text : HU01001808, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-07 13:09:53 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-07 13:09:57 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-07 13:10:27 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-07 13:10:27 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:10:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:10:28 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-07 13:10:47 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:10:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-07 13:10:58 PM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Nov-07 13:10:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-07 13:10:58 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Nov-07 13:10:58 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-07 13:11:30 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-07 13:11:30 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"New Booking"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f673ec73c56e593c481b9931b67b8bcb
+*** Element info: {Using=link text, value=New Booking}
+2022-Nov-07 13:11:40 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:11:41 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:12:08 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:12:19 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route_0]
+2022-Nov-07 13:12:19 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Dover to Calais], --> id: Route_0]
+2022-Nov-07 13:12:21 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-07 13:12:21 PM [main] INFO  com.web.actions.WebActions - Write Text 'UID1107011220' on --> id: UnitID_0]
+2022-Nov-07 13:12:21 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-07 13:12:21 PM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221107011221' on --> id: JobReference_0]
+2022-Nov-07 13:12:22 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-07 13:12:22 PM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_07_01_12_21' on --> id: JobDescription_0]
+2022-Nov-07 13:12:22 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Nov-07 13:12:22 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Nov-07 13:12:22 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [1], --> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Nov-07 13:12:22 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-07 13:12:23 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-07 13:12:23 PM [main] INFO  com.web.actions.WebActions - Write Text '16' on --> id: UnitLength_0]
+2022-Nov-07 13:12:23 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-07 13:12:36 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: BillingAddrCB]
+2022-Nov-07 13:12:36 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //input[@id='paymentTermsCheckBox']]
+2022-Nov-07 13:12:36 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Nov-07 13:12:42 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Nov-07 13:12:42 PM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Nov-07 13:12:42 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Nov-07 13:12:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Nov-07 13:12:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Nov-07 13:12:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Nov-07 13:12:43 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Nov-07 13:12:43 PM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Nov-07 13:13:12 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:13:24 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:13:24 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:13:24 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='confirm-booking']//a[text()='Amend booking']]
+2022-Nov-07 13:13:25 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Nov-07 13:13:27 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:13:28 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:13:28 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#mobileMenu" class="menuMobile" data-name="Menu" style="color: red; background: SkyBlue; border: 2px solid red;">...</a> is not clickable at point (1198, 40). Other element would receive the click: <div class="titleRow">...</div>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f673ec73c56e593c481b9931b67b8bcb
+2022-Nov-07 13:13:41 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:13:55 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@data-element='0']//a[@class='amend']]
+2022-Nov-07 13:13:57 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Nov-07 13:14:00 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:14:00 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:14:37 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:14:52 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@data-element='0']//a[@class='amend']]
+2022-Nov-07 13:14:54 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Nov-07 13:14:57 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-07 13:15:01 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-07 13:15:05 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-07 13:15:05 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:15:05 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:15:06 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-07 13:15:18 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:15:28 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-07 13:15:28 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-07 13:15:28 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-07 13:15:29 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-07 13:15:29 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-07 13:15:39 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:15:49 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:15:59 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:16:09 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:16:19 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:16:29 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:16:39 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:16:49 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:16:59 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:17:09 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-07 13:17:20 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:17:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-07 13:17:32 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-07 13:17:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@class='actionColumns']//a[@class='helpIcon']]
+2022-Nov-07 13:17:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //div[@class='actionColumns']//a[@class='helpIcon']]
+2022-Nov-07 13:17:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Brexit page]
+2022-Nov-07 13:17:48 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Brexit page]
+2022-Nov-07 13:17:50 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Brexit page]
+2022-Nov-07 13:17:53 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

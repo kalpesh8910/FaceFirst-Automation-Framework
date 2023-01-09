@@ -1,0 +1,131 @@
+2022-Apr-10 07:45:14 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Apr-10 07:45:18 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cm.azurewebsites.net/
+2022-Apr-10 07:45:19 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Apr-10 07:45:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Apr-10 07:45:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Apr-10 07:45:21 AM [main] INFO  com.web.actions.WebActions - Write Text 'akhilraju@hotmail.com' on --> id: LoginEmail]
+2022-Apr-10 07:45:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Apr-10 07:45:22 AM [main] INFO  com.web.actions.WebActions - Write Text 'Shogun6666' on --> id: LoginPass]
+2022-Apr-10 07:45:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Apr-10 07:45:23 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-Apr-10 07:45:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-Apr-10 07:45:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Apr-10 07:45:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='DVR-CQF']]
+2022-Apr-10 07:45:28 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Apr-10 07:45:28 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Apr-10 07:45:43 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Apr-10 07:45:54 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Apr-10 07:45:54 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Apr-10 07:45:54 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Apr-10 07:45:54 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Apr-10 07:45:55 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Apr-10 07:46:06 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Apr-10 07:46:22 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Apr-10 07:46:22 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Apr-10 07:46:22 AM [main] INFO  com.web.actions.WebActions - Object Text : 2.5 metre, --> id: rev-vehHeight]
+2022-Apr-10 07:46:23 AM [main] INFO  com.web.actions.WebActions - Object Text : 2.5 metre, --> id: rev-vehWidth]
+2022-Apr-10 07:46:23 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Apr-10 07:46:23 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Apr-10 07:46:23 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Apr-10 07:46:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Apr-10 07:46:59 AM [main] INFO  com.web.actions.WebActions - Exception: getObjectText '
+2022-Apr-10 07:46:59 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#amount"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=amount}
+2022-Apr-10 07:48:30 AM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2022-Apr-10 07:48:30 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cardNumber"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=cardNumber}
+2022-Apr-10 07:49:11 AM [main] INFO  com.web.actions.WebActions - Exception: Write Text '4111111111111111' on 
+2022-Apr-10 07:49:11 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#cardNumber"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=cardNumber}
+2022-Apr-10 07:49:51 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Apr-10 07:49:51 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#expiryMonth"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=expiryMonth}
+2022-Apr-10 07:50:31 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Apr-10 07:50:31 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='expiryMonth']//option[@value='12']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=xpath, value=//select[@id='expiryMonth']//option[@value='12']}
+2022-Apr-10 07:51:12 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Apr-10 07:51:12 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#expiryYear"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=expiryYear}
+2022-Apr-10 07:51:52 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Apr-10 07:51:52 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='expiryYear']//option[@value='2022']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=xpath, value=//select[@id='expiryYear']//option[@value='2022']}
+2022-Apr-10 07:52:52 AM [main] INFO  com.web.actions.WebActions - Exception: ClearText '
+2022-Apr-10 07:52:52 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#csc"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=csc}
+2022-Apr-10 07:53:33 AM [main] INFO  com.web.actions.WebActions - Exception: Write Text '456' on 
+2022-Apr-10 07:53:33 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#csc"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=csc}
+2022-Apr-10 07:54:13 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Apr-10 07:54:13 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnSubmit"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d911fbafc69dc8c3c05a93958c588236
+*** Element info: {Using=id, value=btnSubmit}
+2022-Apr-10 07:54:14 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

@@ -1,0 +1,257 @@
+2022-Oct-13 10:21:30 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-13 10:21:33 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-Oct-13 10:21:44 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-13 10:21:57 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-13 10:22:07 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-13 10:22:08 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-13 10:22:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-13 10:22:08 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-13 10:22:08 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-13 10:22:42 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:22:52 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:23:02 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:23:13 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:23:23 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:23:33 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:23:43 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:23:53 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:24:03 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:24:13 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:24:23 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Oct-13 10:24:35 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-13 10:25:16 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:25:16 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav//a[contains(@href,'CreateBookings')]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fa2e31693101194f02204e87bfb09dd
+*** Element info: {Using=xpath, value=//nav//a[contains(@href,'CreateBookings')]}
+2022-Oct-13 10:25:32 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Oct-13 10:25:32 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select a valid route., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select a sailing date., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the available schedule., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the unit type., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Unit ID, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter a Job reference, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:36 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Load Description, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter the Unit Length, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Object Text : Please specify the Load Weight, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']//option[@value='DUB-LIV']]
+2022-Oct-13 10:25:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Oct-13 10:25:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select a sailing date., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the available schedule., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the unit type., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Unit ID, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter a Job reference, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Load Description, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter the Unit Length, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : Please specify the Load Weight, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:42 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Oct-13 10:25:44 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Oct-13 10:25:44 AM [main] INFO  com.web.actions.WebActions - Write Text '1234567890123456' on --> id: UnitID_0]
+2022-Oct-13 10:25:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select a sailing date., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the available schedule., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Unit ID cannot exceed 13 characters, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter a Job reference, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Load Description, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter the Unit Length, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : Please specify the Load Weight, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:49 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:50 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='drivers_0'][@name='drivers']]
+2022-Oct-13 10:25:50 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='drivers_0']//option[@value='1']]
+2022-Oct-13 10:25:50 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select a sailing date., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the available schedule., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Unit ID cannot exceed 13 characters, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter a Job reference, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Load Description, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter the Unit Length, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : Please specify the Load Weight, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:54 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PluginCheckBox_0]
+2022-Oct-13 10:25:55 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitTemperature_0]
+2022-Oct-13 10:25:55 AM [main] INFO  com.web.actions.WebActions - Write Text '-50' on --> id: UnitTemperature_0]
+2022-Oct-13 10:25:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Oct-13 10:25:59 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select a sailing date., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:59 AM [main] INFO  com.web.actions.WebActions - Object Text : Please select the available schedule., --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:59 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:25:59 AM [main] INFO  com.web.actions.WebActions - Object Text : Unit ID cannot exceed 13 characters, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter a Job reference, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter Load Description, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : Please enter the Unit Length, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : Please specify the Load Weight, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : Temperature should be in the range of -30 °c and +150 °c, --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:00 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //em[@class='error invalid-feedback'][not(@style="display: none;")]], [[ChromeDriver: chrome on WINDOWS (7fa2e31693101194f02204e87bfb09dd)] -
+2022-Oct-13 10:26:30 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:26:30 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fa2e31693101194f02204e87bfb09dd
+*** Element info: {Using=link text, value=Sign Out}
+2022-Oct-13 10:26:31 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Oct-13 10:26:35 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-13 10:26:38 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-Oct-13 10:26:40 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-13 10:26:52 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-13 10:27:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-13 10:27:02 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Oct-13 10:27:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-13 10:27:03 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Oct-13 10:27:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-13 10:27:25 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@title='New Booking'][@class=' ']]
+2022-Oct-13 10:27:25 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62167}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a07e49bae12de9008f31e5ac5021bd7c
+2022-Oct-13 10:27:46 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Oct-13 10:27:50 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-13 10:27:53 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-Oct-13 10:27:55 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-13 10:28:06 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-13 10:28:17 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-13 10:28:17 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-13 10:28:17 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-13 10:28:17 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-13 10:28:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-13 10:28:33 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:28:43 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:28:53 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:29:03 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:29:13 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:29:23 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:29:33 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:29:43 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:29:53 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:30:03 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:30:43 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:30:43 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav[@class='mouseDevice']//a[@href='/ManageBookings']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0147204caa4b9cf9b15d7073dfc5247e
+*** Element info: {Using=xpath, value=//nav[@class='mouseDevice']//a[@href='/ManageBookings']}
+2022-Oct-13 10:30:56 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Oct-13 10:30:59 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-13 10:31:02 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-Oct-13 10:31:15 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-13 10:31:27 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-13 10:31:37 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-13 10:31:38 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-13 10:31:38 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-13 10:31:38 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-13 10:31:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-13 10:31:48 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:31:58 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:32:08 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:32:18 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:32:28 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:32:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:32:49 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:32:59 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:33:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:33:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-13 10:33:39 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@href='/TrackBooking'][@class=' ']]
+2022-Oct-13 10:33:39 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+2022-Oct-13 10:34:09 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:34:09 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Filter By'][@class='filterBtn']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+*** Element info: {Using=xpath, value=//a[@title='Filter By'][@class='filterBtn']}
+2022-Oct-13 10:34:50 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:34:50 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='Route']/..//div[@name='multiselectFormText']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+*** Element info: {Using=xpath, value=//select[@id='Route']/..//div[@name='multiselectFormText']}
+2022-Oct-13 10:35:30 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:35:30 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#apply"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+*** Element info: {Using=id, value=apply}
+2022-Oct-13 10:36:11 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:36:11 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitType"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+*** Element info: {Using=id, value=UnitType}
+2022-Oct-13 10:37:11 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-13 10:37:11 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitType"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+*** Element info: {Using=id, value=UnitType}
+2022-Oct-13 10:37:51 AM [main] INFO  com.web.actions.WebActions - Exception: getDropdownOption: 
+2022-Oct-13 10:37:51 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#UnitType"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83df0cd6c3f82b65efc812da3dc45001
+*** Element info: {Using=id, value=UnitType}
+2022-Oct-13 10:37:52 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

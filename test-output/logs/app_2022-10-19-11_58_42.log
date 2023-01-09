@@ -1,0 +1,27 @@
+2022-Oct-19 11:58:47 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 11:58:53 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-19 11:59:54 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 11:59:54 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (46cd0c89b7df952310f4155ebc48ac52)] -> xpath: //a[@href='#mobileMenu'][@class='menuMobile']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46cd0c89b7df952310f4155ebc48ac52
+2022-Oct-19 12:00:04 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 12:00:04 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46cd0c89b7df952310f4155ebc48ac52
+2022-Oct-19 12:00:04 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='/Login'][@class='likeButton']]
+2022-Oct-19 12:00:06 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/Login'][@class='likeButton']]
+2022-Oct-19 12:00:10 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/CreditCustomerApplicationform
+2022-Oct-19 12:00:10 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: SaveProfileBtn]
+2022-Oct-19 12:00:11 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SaveProfileBtn]
+2022-Oct-19 12:00:13 PM [main] INFO  com.poferries.tourist.web.actions.SignUpPageActions - Validated Text for Title, Expected Value = Title is required, Actual Value = Title is required
+2022-Oct-19 12:00:14 PM [main] INFO  com.poferries.tourist.web.actions.SignUpPageActions - Validated Text for First Name, Expected Value = First Name is Required, Actual Value = First Name is Required
+2022-Oct-19 12:00:14 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: firstname]
+2022-Oct-19 12:00:15 PM [main] INFO  com.web.actions.WebActions - Write Text 'SJNELyuOpgsXiSMECeUQLqjLTWuouKPYDlouKSUOc' on --> id: firstname]
+2022-Oct-19 12:00:17 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SaveProfileBtn]

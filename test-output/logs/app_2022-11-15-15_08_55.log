@@ -1,0 +1,26 @@
+2022-Nov-15 15:09:01 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-15 15:09:05 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-15 15:09:05 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 15:09:05 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 15:09:06 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-15 15:09:19 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-15 15:09:29 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-15 15:09:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-15 15:09:30 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-15 15:09:30 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-15 15:09:30 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-15 15:09:40 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-15 15:09:50 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-15 15:10:00 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-15 15:10:11 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 15:10:11 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-15 15:10:11 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-15 15:10:23 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-15 15:10:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-15 15:10:33 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CYN-LAR']]
+2022-Nov-15 15:10:33 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: scSelectDate]
+2022-Nov-15 15:10:34 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: scSelectDate]
+2022-Nov-15 15:10:34 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='18']]
+2022-Nov-15 15:10:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-15 15:10:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-15 15:10:40 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: StepOneContinue]

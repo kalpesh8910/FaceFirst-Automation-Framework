@@ -1,0 +1,26 @@
+2022-Nov-04 03:30:12 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-04 03:30:21 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-04 03:30:22 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-04 03:30:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-04 03:30:22 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-04 03:30:35 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-04 03:30:45 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-04 03:30:45 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Nov-04 03:30:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-04 03:30:46 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Nov-04 03:30:46 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-04 03:32:30 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '
+2022-Nov-04 03:32:30 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6148
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Nov-04 03:32:48 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-04 03:32:48 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6148
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver
+2022-Nov-04 03:32:58 AM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Nov-04 03:32:58 AM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6148
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: RemoteWebDriver

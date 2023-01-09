@@ -1,0 +1,61 @@
+2022-Nov-01 11:07:50 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-01 11:07:56 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-01 11:07:57 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-01 11:07:57 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-01 11:07:57 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-01 11:08:09 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-01 11:08:20 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-01 11:08:20 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-01 11:08:20 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-01 11:08:20 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-01 11:08:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-01 11:08:30 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:08:41 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:08:51 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:09:01 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:09:11 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:09:21 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:09:31 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:09:41 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:09:51 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:10:01 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-01 11:10:11 AM [main] INFO  com.web.actions.WebActions - Object Text : WayBill No: HU01001451, --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-01 11:10:11 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Object Text : 551370 , North Sea Express NV, --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Object Text : Hull, --> xpath: //*[@id='showDetails']//label[text()='From:']/../*[@class='data']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Object Text : Europoort, --> xpath: //*[@id='showDetails']//label[text()='To:']/../*[@class='data']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Object Text : HU01001451, --> xpath: //*[@id='showDetails']//label[text()='WayBill No: ']/../*[@class='data']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Object Text : 01 Nov 2022, --> xpath: //*[@id='showDetails']//label[text()='Booking Date:']/../*[@class='data']]
+2022-Nov-01 11:10:12 AM [main] INFO  com.web.actions.WebActions - Object Text : HAR, --> xpath: //*[@id='showDetails']//label[text()='Unit Type: ']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : PN1NOV226, --> xpath: //*[@id='showDetails']//label[text()='Unit ID: ']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : 6, --> xpath: //*[@id='showDetails']//label[text()='Unit Length (M):']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : No, --> xpath: //*[@id='showDetails']//label[text()='Plug-in:']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : 0, --> xpath: //*[@id='showDetails']//label[text()='Drivers:']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Temp (°C):']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : PN1NOV226JR, --> xpath: //*[@id='showDetails']//label[text()='Job Reference:']/../*[@class='data']]
+2022-Nov-01 11:10:13 AM [main] INFO  com.web.actions.WebActions - Object Text : TEST-4, --> xpath: //*[@id='showDetails']//label[text()='Description:']/../*[@class='data']]
+2022-Nov-01 11:10:14 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //h2[text()='Booking Details']/../..//a[@class='close icon']]
+2022-Nov-01 11:10:14 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-01 11:10:26 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-01 11:10:36 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: Account_0]
+2022-Nov-01 11:10:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Account_0]
+2022-Nov-01 11:10:37 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : 551370, North Sea Express NV, --> id: Account_0]
+2022-Nov-01 11:10:37 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Account ===> 551370 , North Sea Express NV --> 551370, North Sea Express NV = false
+2022-Nov-01 11:10:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route_0]
+2022-Nov-01 11:10:37 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : Hull to Europoort, --> id: Route_0]
+2022-Nov-01 11:10:37 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Route ===> Hull to Europoort --> Hull to Europoort = true
+2022-Nov-01 11:10:38 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'WayBillNo ===> HU01001451 --> HU01001451 = true
+2022-Nov-01 11:10:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-01 11:10:38 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : HARVESTER( HAR ), --> id: UnitType_0]
+2022-Nov-01 11:10:38 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitType ===> HAR --> HARVESTER( HAR ) = false
+2022-Nov-01 11:10:38 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitID ===> PN1NOV226 --> PN1NOV226 = true
+2022-Nov-01 11:10:38 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitLength ===> 6 --> 6 = true
+2022-Nov-01 11:10:39 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: drivers_0]
+2022-Nov-01 11:10:39 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : 0, --> id: drivers_0]
+2022-Nov-01 11:10:39 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Drivers ===> 0 --> 0 = true
+2022-Nov-01 11:10:39 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Temperature ===>  -->  = true
+2022-Nov-01 11:10:39 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobReference ===> PN1NOV226JR --> PN1NOV226JR = true
+2022-Nov-01 11:10:39 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobDescription ===> TEST-4 --> TEST-4 = true
+2022-Nov-01 11:10:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-01 11:10:41 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

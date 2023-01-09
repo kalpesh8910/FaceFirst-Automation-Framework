@@ -1,0 +1,24 @@
+2022-Oct-18 09:48:12 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-18 09:48:16 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-18 09:48:17 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:48:17 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:48:17 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-18 09:48:29 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-18 09:48:40 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-18 09:48:40 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Oct-18 09:48:40 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-18 09:48:40 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Oct-18 09:48:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-18 09:48:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:48:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:48:46 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/ActiveBookings']]
+2022-Oct-18 09:48:54 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //span[@class='text']]
+2022-Oct-18 09:48:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[@class='text']]
+2022-Oct-18 09:48:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> class name: form-control]
+2022-Oct-18 09:48:54 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [United Kingdom], --> class name: form-control]
+2022-Oct-18 09:48:55 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //span[@class='checkmark']]
+2022-Oct-18 09:48:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[@class='checkmark']]
+2022-Oct-18 09:48:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //label[@id='TransportingOption_CARRY_MAIL']]
+2022-Oct-18 09:48:55 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //button[text()='Activate'][@class='btn-primary walletSubmit']]
+2022-Oct-18 09:48:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //button[text()='Activate'][@class='btn-primary walletSubmit']]
+2022-Oct-18 09:48:57 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

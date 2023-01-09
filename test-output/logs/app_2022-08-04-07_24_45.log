@@ -1,0 +1,19 @@
+2022-Aug-04 07:24:50 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Aug-04 07:24:57 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Aug-04 07:24:57 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Aug-04 07:24:59 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Aug-04 07:25:00 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Aug-04 07:25:01 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Aug-04 07:25:01 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Aug-04 07:25:01 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Aug-04 07:25:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Aug-04 07:25:28 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@title='Home'][@class=' ']]
+2022-Aug-04 07:25:39 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@title='Home'][@class=' ']]
+2022-Aug-04 07:25:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //div[@data-element='0']//a[@class='amend']
+2022-Aug-04 07:25:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@data-element='0']//a[@class='amend']]
+2022-Aug-04 07:25:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Aug-04 07:25:57 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@title='Manage bookings'][@class=' ']]
+2022-Aug-04 07:26:05 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //div[@data-element='0']//a[@class='amend']
+2022-Aug-04 07:26:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@data-element='0']//a[@class='amend']]
+2022-Aug-04 07:26:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //*[@id='panelAmend']//button[@class='btn-secondary closePanelSide']]
+2022-Aug-04 07:26:06 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

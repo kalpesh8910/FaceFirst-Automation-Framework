@@ -1,0 +1,11 @@
+2022-Jul-31 12:23:07 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jul-31 12:23:12 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Jul-31 12:23:12 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jul-31 12:23:17 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jul-31 12:23:18 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jul-31 12:23:18 PM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Jul-31 12:23:18 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jul-31 12:23:18 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Jul-31 12:23:19 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jul-31 12:25:03 PM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '
+2022-Jul-31 12:25:03 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //section//a[contains(@href,'CreateBookings')]' (tried for 60 second(s) with 500 milliseconds interval)

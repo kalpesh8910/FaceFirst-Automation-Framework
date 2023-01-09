@@ -1,0 +1,8 @@
+2022-Oct-19 12:01:37 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 12:01:42 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-19 12:01:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='/Login'][@class='likeButton']]
+2022-Oct-19 12:01:45 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/Login'][@class='likeButton']]
+2022-Oct-19 12:01:47 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/CreditCustomerApplicationform
+2022-Oct-19 12:01:48 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: SaveProfileBtn]
+2022-Oct-19 12:01:49 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SaveProfileBtn]
+2022-Oct-19 12:01:52 PM [main] INFO  com.poferries.tourist.web.actions.SignUpPageActions - Validated Text for Title, Expected Value = Title is required, Actual Value = Title is required

@@ -1,0 +1,58 @@
+2022-Jun-26 11:36:47 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jun-26 11:36:51 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Jun-26 11:36:52 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jun-26 11:36:54 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jun-26 11:36:54 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jun-26 11:36:55 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Jun-26 11:36:55 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jun-26 11:36:55 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Jun-26 11:36:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jun-26 11:36:58 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-Jun-26 11:37:08 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='closeAds']]
+2022-Jun-26 11:37:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-Jun-26 11:37:20 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@class='closeAds']]
+2022-Jun-26 11:37:20 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffceea9abc2a845793271cedecd5872
+2022-Jun-26 11:37:21 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-Jun-26 11:37:31 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@class='closeAds']]
+2022-Jun-26 11:37:31 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffceea9abc2a845793271cedecd5872
+2022-Jun-26 11:37:31 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Jun-26 11:37:43 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Jun-26 11:37:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']]
+2022-Jun-26 11:38:03 AM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [], --> xpath: //select[@id='RouteFilter']]
+2022-Jun-26 11:38:03 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+2022-Jun-26 11:38:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Jun-26 11:38:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Jun-26 11:38:20 AM [main] INFO  com.web.actions.WebActions - Exception: SelectByVisibleText: [Accompanied Vehicle( SDV )], --> id: UnitType_0]
+2022-Jun-26 11:38:20 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffceea9abc2a845793271cedecd5872
+*** Element info: {Using=xpath, value=.//option[contains(., "Accompanied")]}
+2022-Jun-26 11:38:20 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Jun-26 11:38:20 AM [main] INFO  com.web.actions.WebActions - Write Text 'NlzoZ' on --> id: UnitID_0]
+2022-Jun-26 11:38:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Jun-26 11:38:21 AM [main] INFO  com.web.actions.WebActions - Write Text 'VziWz' on --> id: JobReference_0]
+2022-Jun-26 11:38:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Jun-26 11:38:21 AM [main] INFO  com.web.actions.WebActions - Write Text 'ksFcJ' on --> id: JobDescription_0]
+2022-Jun-26 11:38:21 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Jun-26 11:38:22 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

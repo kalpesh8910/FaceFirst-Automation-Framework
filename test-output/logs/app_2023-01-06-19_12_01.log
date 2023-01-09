@@ -1,0 +1,7 @@
+2023-Jan-06 19:12:07 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-06 19:12:09 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-06 19:12:22 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-06 19:12:23 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-06 19:12:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-06 19:12:42 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> xpath: //span[contains(text(),"Welcome to the FaceFirst platform!")]]
+2023-Jan-06 19:12:44 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

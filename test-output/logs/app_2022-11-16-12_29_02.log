@@ -1,0 +1,159 @@
+2022-Nov-16 12:29:07 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-16 12:29:11 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-16 12:29:12 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:29:12 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:29:12 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-16 12:29:24 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-16 12:29:34 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-16 12:29:35 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-16 12:29:35 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-16 12:29:35 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-16 12:29:35 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-16 12:29:45 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-16 12:29:55 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-16 12:30:06 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-16 12:30:16 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:30:16 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:30:16 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-16 12:30:28 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-16 12:30:38 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-16 12:30:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CYN-LAR']]
+2022-Nov-16 12:30:39 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: scSelectDate]
+2022-Nov-16 12:30:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: scSelectDate]
+2022-Nov-16 12:30:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='17']]
+2022-Nov-16 12:30:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-16 12:30:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-16 12:41:51 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-16 12:41:51 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 817fa55cfa5556178a39c3e11513a820
+2022-Nov-16 12:43:11 PM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Nov-16 12:43:11 PM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 817fa55cfa5556178a39c3e11513a820
+2022-Nov-16 12:43:16 PM [main] INFO  com.driver.DriverFactory - InstantiateDriverObject Exception Log: org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed.
+  (chrome not reachable)
+  (The process started from chrome location C:\Users\Khairnar_S\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009AACD3+2075859]
+	Ordinal0 [0x0093EE61+1633889]
+	Ordinal0 [0x0083B7BD+571325]
+	Ordinal0 [0x0085AA93+699027]
+	Ordinal0 [0x00856BE9+682985]
+	Ordinal0 [0x0088DBD3+908243]
+	Ordinal0 [0x0088D6AA+906922]
+	Ordinal0 [0x00887136+880950]
+	Ordinal0 [0x0085FEFD+720637]
+	Ordinal0 [0x00860F3F+724799]
+	GetHandleVerifier [0x00C5EED2+2769538]
+	GetHandleVerifier [0x00C50D95+2711877]
+	GetHandleVerifier [0x00A3A03A+521194]
+	GetHandleVerifier [0x00A38DA0+516432]
+	Ordinal0 [0x0094682C+1665068]
+	Ordinal0 [0x0094B128+1683752]
+	Ordinal0 [0x0094B215+1683989]
+	Ordinal0 [0x00956484+1729668]
+	BaseThreadInitThunk [0x760FFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77637BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77637B8E+238]
+
+2022-Nov-16 12:43:16 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-16 12:43:16 PM [main] INFO  com.web.actions.WebActions - Exception: Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-16 12:43:16 PM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException
+2022-Nov-16 12:43:16 PM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Nov-16 12:43:16 PM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: java.lang.NullPointerException
+2022-Nov-16 12:53:19 PM [main] INFO  com.driver.DriverFactory - InstantiateDriverObject Exception Log: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009AACD3+2075859]
+	Ordinal0 [0x0093EE61+1633889]
+	Ordinal0 [0x0083B7BD+571325]
+	Ordinal0 [0x0082E410+517136]
+	Ordinal0 [0x0082E231+516657]
+	Ordinal0 [0x0082D0A3+512163]
+	Ordinal0 [0x0082D5AD+513453]
+	Ordinal0 [0x0082CCB5+511157]
+	Ordinal0 [0x00837113+553235]
+	Ordinal0 [0x0082CC65+511077]
+	Ordinal0 [0x0082DEA6+515750]
+	Ordinal0 [0x0082D0A3+512163]
+	Ordinal0 [0x0082D5AD+513453]
+	Ordinal0 [0x0082CCB5+511157]
+	Ordinal0 [0x00834C48+543816]
+	Ordinal0 [0x0082CC65+511077]
+	Ordinal0 [0x0082DEA6+515750]
+	Ordinal0 [0x0082D0A3+512163]
+	Ordinal0 [0x0082D5AD+513453]
+	Ordinal0 [0x0082CCB5+511157]
+	Ordinal0 [0x00832862+534626]
+	Ordinal0 [0x0082CC65+511077]
+	Ordinal0 [0x0082DEA6+515750]
+	Ordinal0 [0x0082D0A3+512163]
+	Ordinal0 [0x0082D5AD+513453]
+	Ordinal0 [0x0082CCB5+511157]
+	Ordinal0 [0x00827F2D+491309]
+	Ordinal0 [0x0082CC65+511077]
+	Ordinal0 [0x0082C42D+508973]
+	Ordinal0 [0x0082C11F+508191]
+	Ordinal0 [0x0083CC53+576595]
+	Ordinal0 [0x008220E7+467175]
+	Ordinal0 [0x0082129B+463515]
+	Ordinal0 [0x0088DD7C+908668]
+	Ordinal0 [0x0088D6AA+906922]
+	Ordinal0 [0x00887136+880950]
+	Ordinal0 [0x0085FEFD+720637]
+	Ordinal0 [0x00860F3F+724799]
+	GetHandleVerifier [0x00C5EED2+2769538]
+	GetHandleVerifier [0x00C50D95+2711877]
+	GetHandleVerifier [0x00A3A03A+521194]
+	GetHandleVerifier [0x00A38DA0+516432]
+	Ordinal0 [0x0094682C+1665068]
+	Ordinal0 [0x0094B128+1683752]
+	Ordinal0 [0x0094B215+1683989]
+	Ordinal0 [0x00956484+1729668]
+	BaseThreadInitThunk [0x760FFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77637BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77637B8E+238]
+
+2022-Nov-16 12:53:19 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-16 12:53:19 PM [main] INFO  com.web.actions.WebActions - Exception: Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-16 12:53:19 PM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException
+2022-Nov-16 12:53:19 PM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Nov-16 12:53:19 PM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: java.lang.NullPointerException
+2022-Nov-16 12:53:24 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-16 12:54:24 PM [main] INFO  com.web.actions.WebActions - Exception: Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-16 12:54:24 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 59.253
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0c2c89dd301d68c5b5ed46d50b80304
+2022-Nov-16 12:55:44 PM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Nov-16 12:55:44 PM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0c2c89dd301d68c5b5ed46d50b80304
+2022-Nov-16 12:55:48 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-16 12:55:51 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-16 12:55:52 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:55:52 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-16 12:55:52 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-16 12:56:04 PM [main] INFO  com.web.actions.WebActions - Click on :

@@ -1,0 +1,53 @@
+2022-Sep-07 12:06:31 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Sep-07 12:06:35 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Sep-07 12:06:35 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Sep-07 12:06:38 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Sep-07 12:06:38 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Sep-07 12:06:39 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Sep-07 12:06:39 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Sep-07 12:06:39 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Sep-07 12:06:40 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Sep-07 12:06:50 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:07:00 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:07:10 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:07:20 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:07:30 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:07:40 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:07:50 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:08:00 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:08:10 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:08:20 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-07 12:08:32 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-Sep-07 12:08:37 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:37 PM [main] INFO  com.web.actions.WebActions - Object Text : DO00038908, --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:37 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: QuickSearchInput]
+2022-Sep-07 12:08:38 PM [main] INFO  com.web.actions.WebActions - Write Text 'DO00038908' on --> id: QuickSearchInput]
+2022-Sep-07 12:08:38 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: QuickSearchInput]
+2022-Sep-07 12:08:41 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:41 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:41 PM [main] INFO  com.web.actions.WebActions - Object Text : DO00038908, --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:41 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Unit ID: ']/span]
+2022-Sep-07 12:08:41 PM [main] INFO  com.web.actions.WebActions - Object Text : PN2SEP426, --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Unit ID: ']/span]
+2022-Sep-07 12:08:42 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: QuickSearchInput]
+2022-Sep-07 12:08:42 PM [main] INFO  com.web.actions.WebActions - Write Text 'PN2SEP426' on --> id: QuickSearchInput]
+2022-Sep-07 12:08:42 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: QuickSearchInput]
+2022-Sep-07 12:08:43 PM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeClickable '--> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:43 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1155fa0823b582e15c37e5b918658169
+2022-Sep-07 12:08:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Unit ID: ']/span]
+2022-Sep-07 12:08:44 PM [main] INFO  com.web.actions.WebActions - Object Text : PN2SEP426, --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Unit ID: ']/span]
+2022-Sep-07 12:08:44 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Job Reference: ']/span]
+2022-Sep-07 12:08:44 PM [main] INFO  com.web.actions.WebActions - Object Text : PN2SEP426JR, --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Job Reference: ']/span]
+2022-Sep-07 12:08:44 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: QuickSearchInput]
+2022-Sep-07 12:08:44 PM [main] INFO  com.web.actions.WebActions - Write Text 'PN2SEP426JR' on --> id: QuickSearchInput]
+2022-Sep-07 12:08:45 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: QuickSearchInput]
+2022-Sep-07 12:08:46 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//span[@class='openViewPanel']]
+2022-Sep-07 12:08:46 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Job Reference: ']/span]
+2022-Sep-07 12:08:46 PM [main] INFO  com.web.actions.WebActions - Object Text : PN2SEP426JR, --> xpath: //*[@id='tileArea']/div[@data-element='0']//div[@class='infoColTwo']//*[text()='Job Reference: ']/span]
+2022-Sep-07 12:08:49 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

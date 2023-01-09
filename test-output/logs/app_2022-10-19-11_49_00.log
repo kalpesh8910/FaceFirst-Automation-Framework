@@ -1,0 +1,2 @@
+2022-Oct-19 11:49:05 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 11:49:11 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/

@@ -1,0 +1,67 @@
+2022-Nov-03 15:05:41 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-03 15:05:45 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-03 15:05:45 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-03 15:05:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-03 15:05:46 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-03 15:05:58 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-03 15:06:08 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-03 15:06:08 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-03 15:06:08 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-03 15:06:09 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-03 15:06:09 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-03 15:06:19 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:06:29 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:06:39 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:06:49 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:06:59 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:07:09 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:07:19 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:07:29 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:07:39 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:07:49 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-03 15:08:00 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-03 15:08:12 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-03 15:08:22 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-03 15:08:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-03 15:08:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-03 15:08:33 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-03 15:08:33 PM [main] INFO  com.web.actions.WebActions - Write Text '221103030833' on --> id: UnitID_0]
+2022-Nov-03 15:08:34 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-03 15:08:34 PM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221103030833' on --> id: JobReference_0]
+2022-Nov-03 15:08:34 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-03 15:08:34 PM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_03_03_08_34' on --> id: JobDescription_0]
+2022-Nov-03 15:08:35 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-03 15:08:35 PM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-03 15:08:35 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-03 15:08:35 PM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-03 15:08:35 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-03 15:08:35 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-03 15:08:36 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-03 15:08:41 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-03 15:08:41 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-03 15:08:41 PM [main] INFO  com.web.actions.WebActions - Object Text : DO00040477, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-03 15:08:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: successfulBookingsBlock]
+2022-Nov-03 15:08:44 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: successfulBookingsBlock]
+2022-Nov-03 15:08:44 PM [main] INFO  com.web.actions.WebActions - Object Text : DO00040477, --> xpath: //div[@id='successfulBookingsBlock']//div[@class='eachLine'][text()='Way Bill No: ']/span]
+2022-Nov-03 15:08:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> class name: cancel]
+2022-Nov-03 15:08:50 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='cancelPopUpBox']/div[1]//div[@class='btnColOne']//button[@class='btn-primary'][text()='Yes']]
+2022-Nov-03 15:08:50 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='cancelPopUpBox']/div[1]//div[@class='btnColOne']//button[@class='btn-primary'][text()='Yes']]
+2022-Nov-03 15:08:52 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-03 15:08:53 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-03 15:09:06 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-03 15:09:20 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@title='Filter By'][@class='filterBtn']]
+2022-Nov-03 15:09:20 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-toggle="tooltip" data-placement="top" title="Filter By" data-original-title=" Filter By" href="#" class="filterBtn" style="color: red; background: SkyBlue; border: 2px solid red;">...</a> is not clickable at point (1118, 233). Other element would receive the click: <lable class="labelText text-uppercase">...</lable>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37e956f1203938002a58c09bc12b3631
+2022-Nov-03 15:09:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='Status']/..//div[@name='multiselectFormText']]
+2022-Nov-03 15:09:20 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='Status']/..//label[text()='Cancelled']/../input[@type='checkbox']]
+2022-Nov-03 15:09:21 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: apply]
+2022-Nov-03 15:09:22 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='panelFilter']//a[@class='close icon']]
+2022-Nov-03 15:09:22 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: QuickSearchInput]
+2022-Nov-03 15:09:22 PM [main] INFO  com.web.actions.WebActions - Write Text 'DO00040477' on --> id: QuickSearchInput]
+2022-Nov-03 15:09:22 PM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: QuickSearchInput]
+2022-Nov-03 15:09:25 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

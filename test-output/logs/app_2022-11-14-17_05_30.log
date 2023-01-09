@@ -1,0 +1,27 @@
+2022-Nov-14 17:05:34 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-14 17:05:38 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-14 17:05:39 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-14 17:05:39 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-14 17:05:39 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-14 17:05:51 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-14 17:06:01 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-14 17:06:02 PM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-14 17:06:02 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-14 17:06:02 PM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-14 17:06:02 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-14 17:06:12 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-14 17:06:22 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-14 17:06:33 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-14 17:06:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-14 17:06:43 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-14 17:06:43 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-14 17:06:45 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-14 17:06:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-14 17:06:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CYN-LAR']]
+2022-Nov-14 17:07:16 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2022-Nov-14 17:07:26 PM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-14 17:07:27 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-14 17:07:27 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-14 17:07:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: StepOneContinue]
+2022-Nov-14 17:09:01 PM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '
+2022-Nov-14 17:09:01 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: vehicleNumber' (tried for 60 second(s) with 500 milliseconds interval)

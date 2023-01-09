@@ -1,0 +1,29 @@
+2022-May-18 14:36:51 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-18 14:36:54 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-18 14:36:55 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-18 14:36:57 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-18 14:36:57 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-18 14:36:57 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-May-18 14:36:58 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-18 14:36:58 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-May-18 14:36:58 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-May-18 14:37:00 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-May-18 14:37:10 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='closeAds']]
+2022-May-18 14:37:12 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-May-18 14:37:16 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@title='Filter By'][@class='filterBtn']]
+2022-May-18 14:37:17 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route]
+2022-May-18 14:37:17 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Cairnryan to Larne], --> id: Route]
+2022-May-18 14:37:19 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType]
+2022-May-18 14:37:19 PM [main] INFO  com.web.actions.WebActions - Dropdown Option : --> id: UnitType]
+2022-May-18 14:37:19 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType]
+2022-May-18 14:37:19 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Accompanied Vehicle( SDV )], --> id: UnitType]
+2022-May-18 14:37:19 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.id: sailingFilterCheckBox
+2022-May-18 14:37:20 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.id: selectTime
+2022-May-18 14:37:30 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: scheduleFilterDatePicker]
+2022-May-18 14:37:30 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94dbdb5bba158659872e002fbae64357

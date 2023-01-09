@@ -1,0 +1,13 @@
+2022-Oct-19 11:57:03 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 11:57:07 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-19 11:57:41 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 11:57:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 11:58:17 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='/Login'][@class='likeButton']]
+2022-Oct-19 11:58:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/Login'][@class='likeButton']]
+2022-Oct-19 11:58:21 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/CreditCustomerApplicationform
+2022-Oct-19 11:58:21 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: SaveProfileBtn]
+2022-Oct-19 11:58:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SaveProfileBtn]
+2022-Oct-19 11:58:25 AM [main] INFO  com.poferries.tourist.web.actions.SignUpPageActions - Validated Text for Title, Expected Value = Title is required, Actual Value = Title is required
+2022-Oct-19 11:58:25 AM [main] INFO  com.poferries.tourist.web.actions.SignUpPageActions - Validated Text for First Name, Expected Value = First Name is Required, Actual Value = First Name is Required
+2022-Oct-19 11:58:25 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: firstname]
+2022-Oct-19 11:58:25 AM [main] INFO  com.web.actions.WebActions - Write Text 'NvxrYnwcJItMYlCwlpQndURCEhFKSZMCBGkFFKvZv' on --> id: firstname]

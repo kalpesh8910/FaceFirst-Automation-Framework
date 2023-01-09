@@ -1,0 +1,19 @@
+2022-Nov-19 08:00:22 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-19 08:00:27 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-19 08:00:27 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-19 08:00:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-19 08:00:27 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-19 08:00:40 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-19 08:00:50 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-19 08:00:50 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-19 08:00:50 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-19 08:00:51 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-19 08:00:51 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-19 08:01:01 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-19 08:01:11 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-19 08:01:12 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-19 08:01:12 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-19 08:01:23 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-19 08:01:34 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-19 08:01:34 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CQF-DVR']]
+2022-Nov-19 08:01:35 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

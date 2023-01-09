@@ -1,0 +1,16 @@
+2022-Jun-19 15:02:52 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Jun-19 15:03:00 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/Login
+2022-Jun-19 15:03:01 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Jun-19 15:03:02 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Jun-19 15:03:03 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Jun-19 15:03:03 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Jun-19 15:03:03 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Jun-19 15:03:04 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Jun-19 15:03:04 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Jun-19 15:03:17 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 15:03:28 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 15:03:39 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Jun-19 15:03:51 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-Jun-19 15:03:53 PM [main] INFO  com.web.actions.WebActions - Move To Element : --> xpath: //a[@class='helpIcon']]
+2022-Jun-19 15:03:53 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='helpIcon']]
+2022-Jun-19 15:03:54 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

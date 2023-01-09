@@ -1,0 +1,53 @@
+2022-Oct-21 06:20:35 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-21 06:20:41 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-21 06:20:42 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-21 06:20:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-21 06:20:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-21 06:20:55 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-21 06:21:06 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-21 06:21:06 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-21 06:21:06 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-21 06:21:06 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-21 06:21:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-21 06:21:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:21:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:21:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:21:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:21:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:22:07 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:22:17 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:22:27 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:22:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:22:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-21 06:22:58 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Oct-21 06:23:09 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-21 06:23:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='RouteFilter']]
+2022-Oct-21 06:23:20 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Europoort to Hull], --> xpath: //select[@id='RouteFilter']]
+2022-Oct-21 06:23:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Oct-21 06:23:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Oct-21 06:23:20 AM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [Accompanied Vehicle( SDV )], --> id: UnitType_0]
+2022-Oct-21 06:23:21 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: GMRSDVMessageText_0]
+2022-Oct-21 06:23:21 AM [main] INFO  com.web.actions.WebActions - Object Text : To book a SDV on this route, you must have a valid GMR. More information can be found on our Brexit page, --> id: GMRSDVMessageText_0]
+2022-Oct-21 06:23:21 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //p[1]/a[@href='https://www.pofreight.com/brexit-advice']]
+2022-Oct-21 06:23:21 AM [main] INFO  com.web.actions.WebBrowserActions - Close All Opened Tabs Except First Tab
+2022-Oct-21 06:23:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Oct-21 06:23:22 AM [main] INFO  com.web.actions.WebActions - Write Text 'RosgE' on --> id: UnitID_0]
+2022-Oct-21 06:23:22 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Oct-21 06:23:22 AM [main] INFO  com.web.actions.WebActions - Write Text 'UlVxf' on --> id: JobReference_0]
+2022-Oct-21 06:23:22 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Oct-21 06:23:23 AM [main] INFO  com.web.actions.WebActions - Write Text 'feVDp' on --> id: JobDescription_0]
+2022-Oct-21 06:23:23 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Oct-21 06:23:23 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Oct-21 06:23:23 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Oct-21 06:23:23 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Oct-21 06:23:23 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Oct-21 06:23:24 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Oct-21 06:23:24 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Oct-21 06:23:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Oct-21 06:23:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='26']]
+2022-Oct-21 06:23:27 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Oct-21 06:23:58 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2022-Oct-21 06:24:38 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : FALSE 
+2022-Oct-21 06:24:39 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Oct-21 06:24:42 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-21 06:24:47 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/

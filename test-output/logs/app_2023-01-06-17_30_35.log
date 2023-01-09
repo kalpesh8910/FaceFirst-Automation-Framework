@@ -1,0 +1,5 @@
+2023-Jan-06 17:30:38 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-06 17:30:48 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2023-Jan-06 17:31:01 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> name: password]
+2023-Jan-06 17:31:01 PM [main] INFO  com.web.actions.WebActions - Write Text 'admin123' on --> name: password]
+2023-Jan-06 17:31:06 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

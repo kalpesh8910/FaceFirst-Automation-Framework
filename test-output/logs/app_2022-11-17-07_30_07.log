@@ -1,0 +1,463 @@
+2022-Nov-17 07:30:12 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:30:17 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:30:18 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:30:18 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:30:18 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:30:31 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:30:41 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:30:41 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-17 07:30:41 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:30:42 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-17 07:30:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:30:52 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:31:02 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:31:12 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:31:22 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:31:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:31:23 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-17 07:31:25 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-17 07:31:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-17 07:31:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CYN-LAR']]
+2022-Nov-17 07:31:26 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: scSelectDate]
+2022-Nov-17 07:31:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: scSelectDate]
+2022-Nov-17 07:31:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='18']]
+2022-Nov-17 07:31:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-17 07:31:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-17 07:31:53 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:32:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='UnitType_0']//option[@value='CAR']]
+2022-Nov-17 07:32:04 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-17 07:32:05 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-17 07:32:05 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-17 07:32:05 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-17 07:32:05 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-17 07:32:18 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:32:35 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Nov-17 07:32:35 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Nov-17 07:32:35 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehHeight]
+2022-Nov-17 07:32:36 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehWidth]
+2022-Nov-17 07:32:36 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Nov-17 07:32:36 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Nov-17 07:32:36 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Nov-17 07:32:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Nov-17 07:32:46 AM [main] INFO  com.web.actions.WebActions - Object Text : £173.80, --> id: amount]
+2022-Nov-17 07:32:47 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Nov-17 07:32:47 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Nov-17 07:32:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Nov-17 07:32:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Nov-17 07:32:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Nov-17 07:32:49 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Nov-17 07:32:49 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Nov-17 07:32:49 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Nov-17 07:36:57 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:36:58 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:37:02 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:37:06 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:37:06 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:37:06 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:37:07 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:37:21 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:37:31 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:37:31 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-17 07:37:32 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:37:32 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-17 07:37:32 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:37:42 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:37:52 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:38:02 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:38:13 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:38:13 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:38:13 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-17 07:38:15 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-17 07:38:15 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-17 07:38:16 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CQF-DVR']]
+2022-Nov-17 07:38:16 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-17 07:38:16 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-17 07:38:29 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:38:39 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-17 07:38:40 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-17 07:38:40 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-17 07:38:40 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-17 07:38:40 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-17 07:38:52 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:39:08 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Nov-17 07:39:08 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Nov-17 07:39:08 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehHeight]
+2022-Nov-17 07:39:09 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehWidth]
+2022-Nov-17 07:39:09 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Nov-17 07:39:09 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Nov-17 07:39:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Nov-17 07:39:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Nov-17 07:39:24 AM [main] INFO  com.web.actions.WebActions - Object Text : £114.00, --> id: amount]
+2022-Nov-17 07:39:24 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Nov-17 07:39:25 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Nov-17 07:39:25 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Nov-17 07:39:25 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Nov-17 07:39:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Nov-17 07:39:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Nov-17 07:39:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Nov-17 07:39:27 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Nov-17 07:39:55 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:39:55 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:39:58 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:40:02 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:40:02 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:40:02 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:40:03 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:40:15 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:40:25 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:40:25 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-17 07:40:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:40:26 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-17 07:40:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:40:36 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:40:46 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:40:56 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:41:07 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:41:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:41:07 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-17 07:41:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-17 07:41:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-17 07:41:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='CQF-DUB']]
+2022-Nov-17 07:41:10 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SailingDateDUCA]
+2022-Nov-17 07:41:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SailingDateDUCA]
+2022-Nov-17 07:41:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='18']]
+2022-Nov-17 07:41:20 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-17 07:41:21 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-17 07:41:32 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:41:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-17 07:41:43 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-17 07:41:43 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-17 07:41:43 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-17 07:41:43 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-17 07:41:55 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:42:12 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Nov-17 07:42:12 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Nov-17 07:42:12 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehHeight]
+2022-Nov-17 07:42:12 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehWidth]
+2022-Nov-17 07:42:13 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Nov-17 07:42:13 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Nov-17 07:42:13 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Nov-17 07:42:13 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Nov-17 07:42:20 AM [main] INFO  com.web.actions.WebActions - Object Text : £509.60, --> id: amount]
+2022-Nov-17 07:42:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Nov-17 07:42:21 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Nov-17 07:42:21 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Nov-17 07:42:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Nov-17 07:42:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Nov-17 07:42:23 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Nov-17 07:42:23 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Nov-17 07:42:23 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Nov-17 07:42:35 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:42:35 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:42:39 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:42:44 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:42:45 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:42:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:42:45 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:42:57 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:43:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:43:08 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-17 07:43:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:43:08 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-17 07:43:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:43:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:43:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:43:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:43:49 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:43:49 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:43:50 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-17 07:43:51 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-17 07:43:52 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-17 07:43:52 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='DUB-CQF']]
+2022-Nov-17 07:43:52 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SailingDateDUCA]
+2022-Nov-17 07:43:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SailingDateDUCA]
+2022-Nov-17 07:43:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='18']]
+2022-Nov-17 07:44:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-17 07:44:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-17 07:44:15 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:44:25 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-17 07:44:25 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-17 07:44:25 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-17 07:44:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-17 07:44:26 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-17 07:44:38 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:44:54 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Nov-17 07:44:54 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Nov-17 07:44:54 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehHeight]
+2022-Nov-17 07:44:55 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehWidth]
+2022-Nov-17 07:44:55 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Nov-17 07:44:55 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Nov-17 07:44:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Nov-17 07:44:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Nov-17 07:45:03 AM [main] INFO  com.web.actions.WebActions - Object Text : £509.60, --> id: amount]
+2022-Nov-17 07:45:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Nov-17 07:45:04 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Nov-17 07:45:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Nov-17 07:45:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Nov-17 07:45:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Nov-17 07:45:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Nov-17 07:45:06 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Nov-17 07:45:06 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Nov-17 07:45:39 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:45:40 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:45:43 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:46:02 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:46:03 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:46:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:46:03 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:46:16 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:46:26 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:46:27 AM [main] INFO  com.web.actions.WebActions - Write Text 'shrikant.iqr@gmail.com ' on --> id: LoginEmail]
+2022-Nov-17 07:46:27 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:46:27 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Nov-17 07:46:27 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:46:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:46:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:46:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:47:08 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:47:08 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:47:08 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> link text: Book]
+2022-Nov-17 07:47:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book]
+2022-Nov-17 07:47:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Nov-17 07:47:10 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='LAR-CYN']]
+2022-Nov-17 07:47:11 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: scSelectDate]
+2022-Nov-17 07:47:11 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: scSelectDate]
+2022-Nov-17 07:47:11 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='18']]
+2022-Nov-17 07:47:21 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Nov-17 07:47:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Nov-17 07:47:33 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:47:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='UnitType_0']//option[@value='CAR']]
+2022-Nov-17 07:47:45 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Nov-17 07:47:45 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Nov-17 07:47:45 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Nov-17 07:47:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Nov-17 07:47:46 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Nov-17 07:47:57 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:48:14 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Nov-17 07:48:14 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Nov-17 07:48:14 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehHeight]
+2022-Nov-17 07:48:14 AM [main] INFO  com.web.actions.WebActions - Object Text : <2.5 metre, --> id: rev-vehWidth]
+2022-Nov-17 07:48:15 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Nov-17 07:48:15 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Nov-17 07:48:15 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Nov-17 07:48:15 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Nov-17 07:48:30 AM [main] INFO  com.web.actions.WebActions - Object Text : £173.80, --> id: amount]
+2022-Nov-17 07:48:30 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Nov-17 07:48:30 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Nov-17 07:48:30 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Nov-17 07:48:31 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Nov-17 07:48:31 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Nov-17 07:48:32 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Nov-17 07:48:32 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Nov-17 07:48:32 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Nov-17 07:49:07 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:49:07 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:49:10 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:49:14 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:49:14 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:49:14 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:49:15 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:49:26 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:49:36 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:49:37 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-17 07:49:37 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:49:37 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-17 07:49:37 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:49:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:49:57 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:50:07 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:50:18 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-17 07:50:29 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:50:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-17 07:50:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-17 07:50:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-17 07:50:51 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-17 07:50:51 AM [main] INFO  com.web.actions.WebActions - Write Text '221117075050' on --> id: UnitID_0]
+2022-Nov-17 07:50:51 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-17 07:50:52 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221117075051' on --> id: JobReference_0]
+2022-Nov-17 07:50:52 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-17 07:50:52 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_17_07_50_52' on --> id: JobDescription_0]
+2022-Nov-17 07:50:52 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-17 07:50:52 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-17 07:50:53 AM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException
+2022-Nov-17 07:50:57 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:51:01 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:51:05 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:51:06 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:51:06 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:51:06 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:51:18 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:51:31 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:51:31 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-17 07:51:31 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:51:32 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-17 07:51:32 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:51:42 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:51:52 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:52:02 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:52:13 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-17 07:52:24 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:52:34 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-17 07:52:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-17 07:52:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-17 07:52:45 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-17 07:52:46 AM [main] INFO  com.web.actions.WebActions - Write Text '221117075245' on --> id: UnitID_0]
+2022-Nov-17 07:52:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-17 07:52:46 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221117075246' on --> id: JobReference_0]
+2022-Nov-17 07:52:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-17 07:52:46 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_17_07_52_46' on --> id: JobDescription_0]
+2022-Nov-17 07:52:47 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-17 07:52:47 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-17 07:52:47 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-17 07:52:47 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-17 07:52:47 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-17 07:52:47 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-17 07:52:48 AM [main] INFO  com.web.actions.WebActions - Click on :--> class name: copy]
+2022-Nov-17 07:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : Choose Account
+500984, Martintrux Group Ltd.
+ 551370, North Sea Express NV
+ 788022, Brian Caffrey INT ****GBP****
+ , --> id: Account_0]
+2022-Nov-17 07:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : Unit Type
+CAR UP TO 1.8M HIGH( CAR )
+COACH( CCHNEW )
+FAST LORRY( FASTLY )
+FAST TRACTOR+TRAILER( FASTTT )
+FAST VAN( FASTVN )
+GLASS CARRIER( GLASS )
+HORSE-BOX( HBOX )
+HIGH VAN( HIVAN )
+LORRY( LORRY )
+LORRY+TRAILER( LT )
+TRACTOR UNIT( UNIT )
+TRACTOR+TANKER( TTKR )
+TRACTOR+TRAILER( TT )
+VAN( VAN )
+VAN+TRAILER( VANTLR ), --> id: UnitType_0]
+2022-Nov-17 07:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: UnitID_0]
+2022-Nov-17 07:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: UnitLength_0]
+2022-Nov-17 07:52:50 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: JobReference_0]
+2022-Nov-17 07:52:54 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> id: JobDescription_0]
+2022-Nov-17 07:53:00 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: Account_1]
+2022-Nov-17 07:53:00 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Account_1]
+2022-Nov-17 07:53:00 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : 551370, North Sea Express NV, --> id: Account_1]
+2022-Nov-17 07:53:00 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Account ===> Choose Account
+500984, Martintrux Group Ltd.
+ 551370, North Sea Express NV
+ 788022, Brian Caffrey INT ****GBP****
+  --> 551370, North Sea Express NV = false
+2022-Nov-17 07:53:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_1]
+2022-Nov-17 07:53:01 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : VAN( VAN ), --> id: UnitType_1]
+2022-Nov-17 07:53:01 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitType ===> Unit Type
+CAR UP TO 1.8M HIGH( CAR )
+COACH( CCHNEW )
+FAST LORRY( FASTLY )
+FAST TRACTOR+TRAILER( FASTTT )
+FAST VAN( FASTVN )
+GLASS CARRIER( GLASS )
+HORSE-BOX( HBOX )
+HIGH VAN( HIVAN )
+LORRY( LORRY )
+LORRY+TRAILER( LT )
+TRACTOR UNIT( UNIT )
+TRACTOR+TANKER( TTKR )
+TRACTOR+TRAILER( TT )
+VAN( VAN )
+VAN+TRAILER( VANTLR ) --> VAN( VAN ) = false
+2022-Nov-17 07:53:01 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitID ===>  --> 221117075245 = false
+2022-Nov-17 07:53:01 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobReference ===>  --> JR20221117075246 = false
+2022-Nov-17 07:53:04 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'JobDescription ===>  --> JD2022_11_17_07_52_46 = false
+2022-Nov-17 07:53:19 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:53:21 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:53:24 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:53:28 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:53:28 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:53:28 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:53:28 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:53:40 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:53:51 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:53:51 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-17 07:53:51 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:53:51 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-17 07:53:52 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:54:02 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:54:12 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:54:22 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:54:33 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-17 07:54:49 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:54:59 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-17 07:55:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-17 07:55:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-17 07:55:10 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-17 07:55:10 AM [main] INFO  com.web.actions.WebActions - Write Text '221117075510' on --> id: UnitID_0]
+2022-Nov-17 07:55:10 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-17 07:55:11 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221117075510' on --> id: JobReference_0]
+2022-Nov-17 07:55:11 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-17 07:55:11 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_17_07_55_11' on --> id: JobDescription_0]
+2022-Nov-17 07:55:11 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-17 07:55:11 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-17 07:55:12 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-17 07:55:12 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-17 07:55:12 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-17 07:55:12 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-17 07:55:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[3]/div/div[2]/button]
+2022-Nov-17 07:55:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route_0]
+2022-Nov-17 07:55:24 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : Calais to Dover, --> id: Route_0]
+2022-Nov-17 07:55:29 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:55:33 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:55:36 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:55:36 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:55:36 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:55:37 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:55:48 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:55:59 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:55:59 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-17 07:55:59 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:56:00 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-17 07:56:00 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:56:10 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:56:20 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:56:30 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:56:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Nov-17 07:56:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='descriptionPannelButton']//div[@class='btnColTwo']//button[@class='btn-secondary closePanelSide printbutton text-uppercase']]
+2022-Nov-17 07:56:46 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-17 07:56:49 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-17 07:56:53 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-17 07:56:53 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:56:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-17 07:56:54 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-17 07:57:05 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:57:16 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-17 07:57:16 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-17 07:57:16 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-17 07:57:16 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-17 07:57:16 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-17 07:57:26 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:57:37 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:57:47 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-17 07:57:57 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-17 07:58:09 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-17 07:58:19 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-17 07:58:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-17 07:58:25 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-17 07:58:30 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-17 07:58:30 AM [main] INFO  com.web.actions.WebActions - Write Text '221117075830' on --> id: UnitID_0]
+2022-Nov-17 07:58:31 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-17 07:58:31 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221117075830' on --> id: JobReference_0]
+2022-Nov-17 07:58:31 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-17 07:58:31 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_17_07_58_31' on --> id: JobDescription_0]
+2022-Nov-17 07:58:31 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-17 07:58:32 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-17 07:58:32 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-17 07:58:32 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-17 07:58:32 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-17 07:58:32 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-17 07:58:34 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: ReturnTripCheckBox_0]
+2022-Nov-17 07:58:40 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

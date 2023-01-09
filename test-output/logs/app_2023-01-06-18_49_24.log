@@ -1,0 +1,6 @@
+2023-Jan-06 18:49:28 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-06 18:49:30 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://localhost:5000/login
+2023-Jan-06 18:49:44 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: password]
+2023-Jan-06 18:49:44 PM [main] INFO  com.web.actions.WebActions - Write Text 'Kpk8910123@' on --> id: password]
+2023-Jan-06 18:49:49 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[contains(text(),"Login")]]
+2023-Jan-06 18:49:54 PM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

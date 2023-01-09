@@ -1,0 +1,120 @@
+2022-Oct-19 07:31:20 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 07:31:24 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-19 07:31:24 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 07:31:25 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 07:31:25 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-19 07:31:37 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-19 07:31:48 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-19 07:31:48 AM [main] INFO  com.web.actions.WebActions - Write Text 'Poftest002@gmail.com' on --> id: LoginEmail]
+2022-Oct-19 07:31:48 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-19 07:31:49 AM [main] INFO  com.web.actions.WebActions - Write Text 'Test@123' on --> id: LoginPass]
+2022-Oct-19 07:31:49 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-19 07:31:59 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:32:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:32:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:32:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:32:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:32:49 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:32:59 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:33:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:33:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:33:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:33:40 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 07:33:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 07:34:40 AM [main] INFO  com.web.actions.WebActions - Exception: waitForElementToBeVisibile '--> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-Oct-19 07:34:40 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (cfa543f9dc39cbb788cd59338284e7af)] -> xpath: //a[@href='/BookNow'][@class=' ']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cfa543f9dc39cbb788cd59338284e7af
+2022-Oct-19 07:34:51 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> xpath: //a[@href='/BookNow'][@class=' ']]
+2022-Oct-19 07:34:51 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cfa543f9dc39cbb788cd59338284e7af
+2022-Oct-19 07:34:51 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: route]
+2022-Oct-19 07:34:51 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='route']//option[@value='DVR-CQF']]
+2022-Oct-19 07:34:51 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: passengerAdults]
+2022-Oct-19 07:34:52 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='passengerAdults']//option[@value='2']]
+2022-Oct-19 07:35:04 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-19 07:35:14 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: vehicleNumber]
+2022-Oct-19 07:35:14 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleNumber]
+2022-Oct-19 07:35:14 AM [main] INFO  com.web.actions.WebActions - Write Text '1234' on --> id: vehicleNumber]
+2022-Oct-19 07:35:15 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: vehicleLength]
+2022-Oct-19 07:35:15 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: vehicleLength]
+2022-Oct-19 07:35:27 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-19 07:35:43 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234, --> id: rev-vehUnitId]
+2022-Oct-19 07:35:43 AM [main] INFO  com.web.actions.WebActions - Object Text : 5 metre, --> id: rev-vehLength]
+2022-Oct-19 07:35:43 AM [main] INFO  com.web.actions.WebActions - Object Text : 2.5 metre, --> id: rev-vehHeight]
+2022-Oct-19 07:35:43 AM [main] INFO  com.web.actions.WebActions - Object Text : 2.5 metre, --> id: rev-vehWidth]
+2022-Oct-19 07:35:44 AM [main] INFO  com.web.actions.WebActions - Object Text : <44 tons, --> id: rev-vehWeight]
+2022-Oct-19 07:35:44 AM [main] INFO  com.web.actions.WebActions - Object Text : 2, --> id: rev-adults]
+2022-Oct-19 07:35:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: PaymentTermsCheckBox]
+2022-Oct-19 07:35:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: proceedToPayBtn]
+2022-Oct-19 07:36:00 AM [main] INFO  com.web.actions.WebActions - Object Text : £114.00, --> id: amount]
+2022-Oct-19 07:36:00 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: cardNumber]
+2022-Oct-19 07:36:01 AM [main] INFO  com.web.actions.WebActions - Write Text '4560000000000053' on --> id: cardNumber]
+2022-Oct-19 07:36:01 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryMonth]
+2022-Oct-19 07:36:02 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryMonth']//option[@value='12']]
+2022-Oct-19 07:36:02 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: expiryYear]
+2022-Oct-19 07:36:02 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='expiryYear']//option[@value='2022']]
+2022-Oct-19 07:36:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: csc]
+2022-Oct-19 07:36:03 AM [main] INFO  com.web.actions.WebActions - Write Text '456' on --> id: csc]
+2022-Oct-19 07:36:32 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-19 07:36:33 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Oct-19 07:36:37 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-19 07:36:44 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-19 07:36:44 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 07:36:44 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-19 07:36:45 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-19 07:36:57 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-19 07:37:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-19 07:37:08 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-19 07:37:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-19 07:37:09 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-19 07:37:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-19 07:37:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:37:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:37:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:37:49 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:37:59 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:38:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:38:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:38:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:38:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:38:49 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Oct-19 07:39:00 AM [main] INFO  com.web.actions.WebActions - Object Text : WayBill No: DO00039993, --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Oct-19 07:39:00 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Object Text : 551370 , North Sea Express NV, --> xpath: //*[@id='showDetails']//label[text()='Account: ']/../*[@class='data']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Object Text : Dover, --> xpath: //*[@id='showDetails']//label[text()='From:']/../*[@class='data']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Object Text : Calais, --> xpath: //*[@id='showDetails']//label[text()='To:']/../*[@class='data']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Object Text : DO00039993, --> xpath: //*[@id='showDetails']//label[text()='WayBill No: ']/../*[@class='data']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Object Text : 18 Oct 2022, --> xpath: //*[@id='showDetails']//label[text()='Booking Date:']/../*[@class='data']]
+2022-Oct-19 07:39:01 AM [main] INFO  com.web.actions.WebActions - Object Text : FASTLY, --> xpath: //*[@id='showDetails']//label[text()='Unit Type: ']/../*[@class='data']]
+2022-Oct-19 07:39:02 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234567890, --> xpath: //*[@id='showDetails']//label[text()='Unit ID: ']/../*[@class='data']]
+2022-Oct-19 07:39:02 AM [main] INFO  com.web.actions.WebActions - Object Text : 10, --> xpath: //*[@id='showDetails']//label[text()='Unit Length (M):']/../*[@class='data']]
+2022-Oct-19 07:39:02 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Plug-in:']/../*[@class='data']]
+2022-Oct-19 07:39:02 AM [main] INFO  com.web.actions.WebActions - Object Text : 1, --> xpath: //*[@id='showDetails']//label[text()='Drivers:']/../*[@class='data']]
+2022-Oct-19 07:39:02 AM [main] INFO  com.web.actions.WebActions - Object Text : , --> xpath: //*[@id='showDetails']//label[text()='Temp (°C):']/../*[@class='data']]
+2022-Oct-19 07:39:02 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234567890, --> xpath: //*[@id='showDetails']//label[text()='Job Reference:']/../*[@class='data']]
+2022-Oct-19 07:39:03 AM [main] INFO  com.web.actions.WebActions - Object Text : 1234567890, --> xpath: //*[@id='showDetails']//label[text()='Description:']/../*[@class='data']]
+2022-Oct-19 07:39:03 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //h2[text()='Booking Details']/../..//a[@class='close icon']]
+2022-Oct-19 07:39:03 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> xpath: //div[@id='showTiles']/div[1]//div[@class='eachLine'][text()='WayBill No: ']]
+2022-Oct-19 07:39:27 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-19 07:39:37 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> id: Account_0]
+2022-Oct-19 07:39:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Account_0]
+2022-Oct-19 07:39:38 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : 551370, North Sea Express NV, --> id: Account_0]
+2022-Oct-19 07:39:38 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Account ===> 551370 , North Sea Express NV --> 551370, North Sea Express NV = false
+2022-Oct-19 07:39:39 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: Route_0]
+2022-Oct-19 07:39:40 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : Dover to Calais, --> id: Route_0]
+2022-Oct-19 07:39:40 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'Route ===> Dover to Calais --> Dover to Calais = true
+2022-Oct-19 07:39:40 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'WayBillNo ===> DO00039993 --> DO00039993 = true
+2022-Oct-19 07:39:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Oct-19 07:39:41 AM [main] INFO  com.web.actions.WebActions - First Selected Option value : Unit Type, --> id: UnitType_0]
+2022-Oct-19 07:39:41 AM [main] INFO  com.poferries.tourist.web.actions.WayBill - Compares Text of 'UnitType ===> FASTLY --> Unit Type = false
+2022-Oct-19 07:39:51 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

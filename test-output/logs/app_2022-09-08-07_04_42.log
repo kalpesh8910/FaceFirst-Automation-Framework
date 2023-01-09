@@ -1,0 +1,23 @@
+2022-Sep-08 07:04:50 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Sep-08 07:04:55 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Sep-08 07:04:55 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Sep-08 07:04:57 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-Sep-08 07:04:58 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Sep-08 07:04:58 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Sep-08 07:04:58 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Sep-08 07:04:58 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Sep-08 07:04:59 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Sep-08 07:05:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:05:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:05:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:05:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:05:49 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:05:59 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:06:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:06:19 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:06:29 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:06:39 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Sep-08 07:06:50 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //nav[@class='mouseDevice']//a[@href='/ManageBookings']]
+2022-Sep-08 07:06:55 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: /html/body/div[1]/div[5]/div/div[1]/section[2]/div[2]/div[2]/div[6]/div/div[2]/a]
+2022-Sep-08 07:06:55 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: /html/body/div[1]/div[5]/div/div[1]/section[2]/div[2]/div[2]/div[6]/div/div[2]/a]
+2022-Sep-08 07:06:58 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

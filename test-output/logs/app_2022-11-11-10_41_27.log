@@ -1,0 +1,181 @@
+2022-Nov-11 10:41:32 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-11 10:41:38 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-11 10:41:38 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-11 10:41:38 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-11 10:41:39 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-11 10:41:51 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-11 10:42:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-11 10:42:02 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-11 10:42:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-11 10:42:02 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-11 10:42:02 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-11 10:42:12 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-11 10:42:22 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-11 10:42:33 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-11 10:42:43 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //section//a[contains(@href,'CreateBookings')]]
+2022-Nov-11 10:42:56 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-11 10:43:36 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Nov-11 10:43:36 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#route"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+*** Element info: {Using=id, value=route}
+2022-Nov-11 10:43:47 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: RouteFilter]
+2022-Nov-11 10:43:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: generateFormButton]
+2022-Nov-11 10:43:53 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-11 10:44:01 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-11 10:44:01 AM [main] INFO  com.web.actions.WebActions - Write Text '221111104401' on --> id: UnitID_0]
+2022-Nov-11 10:44:01 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-11 10:44:01 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221111104401' on --> id: JobReference_0]
+2022-Nov-11 10:44:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-11 10:44:02 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_11_10_44_01' on --> id: JobDescription_0]
+2022-Nov-11 10:44:02 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-11 10:44:02 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Nov-11 10:44:03 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Nov-11 10:44:03 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-11 10:44:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-11 10:44:03 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-11 10:44:03 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-11 10:44:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Nov-11 10:44:04 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='16']]
+2022-Nov-11 10:44:07 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-11 10:44:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-11 10:44:13 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: UnitType_0]
+2022-Nov-11 10:44:13 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select class="form-control is-invalid" data-index="0" id="UnitType_0" name="UnitType" aria-describedby="UnitType_0-error" aria-invalid="true" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (438, 24). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+2022-Nov-11 10:44:19 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-11 10:44:19 AM [main] INFO  com.web.actions.WebActions - Write Text '221111104419' on --> id: UnitID_0]
+2022-Nov-11 10:44:19 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-11 10:44:20 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221111104419' on --> id: JobReference_0]
+2022-Nov-11 10:44:20 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-11 10:44:20 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_11_10_44_20' on --> id: JobDescription_0]
+2022-Nov-11 10:44:20 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-11 10:44:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Nov-11 10:44:21 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Nov-11 10:44:21 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-11 10:44:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-11 10:44:22 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-11 10:44:22 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-11 10:44:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Nov-11 10:44:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='16']]
+2022-Nov-11 10:44:25 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-11 10:44:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-11 10:44:31 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: UnitType_0]
+2022-Nov-11 10:44:31 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select class="form-control is-invalid" data-index="0" id="UnitType_0" name="UnitType" aria-describedby="UnitType_0-error" aria-invalid="true" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (438, 24). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+2022-Nov-11 10:44:37 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-11 10:44:37 AM [main] INFO  com.web.actions.WebActions - Write Text '221111104437' on --> id: UnitID_0]
+2022-Nov-11 10:44:38 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-11 10:44:38 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221111104437' on --> id: JobReference_0]
+2022-Nov-11 10:44:38 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-11 10:44:38 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_11_10_44_38' on --> id: JobDescription_0]
+2022-Nov-11 10:44:39 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-11 10:44:39 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Nov-11 10:44:39 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Nov-11 10:44:39 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-11 10:44:39 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-11 10:44:39 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-11 10:44:40 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-11 10:44:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Nov-11 10:44:40 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='16']]
+2022-Nov-11 10:44:43 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-11 10:44:43 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-11 10:44:49 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: RouteFilter]
+2022-Nov-11 10:44:49 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select class="form-control" id="RouteFilter" name="RouteFilter" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (423, 19). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+2022-Nov-11 10:44:56 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: generateFormButton]
+2022-Nov-11 10:44:56 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="generateFormButton" class="btn-primary fieldBtn" style="color: red; background: SkyBlue; border: 2px solid red;">...</button> is not clickable at point (789, 19). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+2022-Nov-11 10:44:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: UnitType_0]
+2022-Nov-11 10:45:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-11 10:45:03 AM [main] INFO  com.web.actions.WebActions - Write Text '221111104502' on --> id: UnitID_0]
+2022-Nov-11 10:45:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-11 10:45:03 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221111104503' on --> id: JobReference_0]
+2022-Nov-11 10:45:03 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-11 10:45:04 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_11_10_45_03' on --> id: JobDescription_0]
+2022-Nov-11 10:45:04 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-11 10:45:04 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Nov-11 10:45:04 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Nov-11 10:45:04 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-11 10:45:04 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-11 10:45:05 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-11 10:45:05 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-11 10:45:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Nov-11 10:45:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='16']]
+2022-Nov-11 10:45:08 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-11 10:45:09 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-11 10:45:14 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: UnitType_0]
+2022-Nov-11 10:45:14 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select class="form-control is-invalid" data-index="0" id="UnitType_0" name="UnitType" aria-describedby="UnitType_0-error" aria-invalid="true" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (438, 24). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+2022-Nov-11 10:45:20 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-11 10:45:21 AM [main] INFO  com.web.actions.WebActions - Write Text '221111104520' on --> id: UnitID_0]
+2022-Nov-11 10:45:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-11 10:45:21 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221111104521' on --> id: JobReference_0]
+2022-Nov-11 10:45:21 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-11 10:45:21 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_11_10_45_21' on --> id: JobDescription_0]
+2022-Nov-11 10:45:21 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-11 10:45:22 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Nov-11 10:45:22 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Nov-11 10:45:22 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-11 10:45:22 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-11 10:45:22 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-11 10:45:22 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-11 10:45:23 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Nov-11 10:45:23 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='16']]
+2022-Nov-11 10:45:26 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-11 10:45:26 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-11 10:45:32 AM [main] INFO  com.web.actions.WebActions - Exception: clickElement '--> id: UnitType_0]
+2022-Nov-11 10:45:32 AM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <select class="form-control is-invalid" data-index="0" id="UnitType_0" name="UnitType" aria-describedby="UnitType_0-error" aria-invalid="true" style="color: red; background: SkyBlue; border: 2px solid red;">...</select> is not clickable at point (438, 24). Other element would receive the click: <div class="brandNavRow">...</div>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 440bb629141cc0a8c72dee970dade851
+2022-Nov-11 10:45:38 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitID_0]
+2022-Nov-11 10:45:38 AM [main] INFO  com.web.actions.WebActions - Write Text '221111104538' on --> id: UnitID_0]
+2022-Nov-11 10:45:38 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobReference_0]
+2022-Nov-11 10:45:39 AM [main] INFO  com.web.actions.WebActions - Write Text 'JR20221111104538' on --> id: JobReference_0]
+2022-Nov-11 10:45:39 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: JobDescription_0]
+2022-Nov-11 10:45:39 AM [main] INFO  com.web.actions.WebActions - Write Text 'JD2022_11_11_10_45_39' on --> id: JobDescription_0]
+2022-Nov-11 10:45:39 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitWeight_0]
+2022-Nov-11 10:45:39 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitWeight_0]
+2022-Nov-11 10:45:40 AM [main] INFO  com.web.actions.WebActions - Write Text '10' on --> id: UnitWeight_0]
+2022-Nov-11 10:45:40 AM [main] INFO  com.web.actions.WebActions - Verify Object Enabled : TRUE --> id: UnitLength_0]
+2022-Nov-11 10:45:40 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: UnitLength_0]
+2022-Nov-11 10:45:40 AM [main] INFO  com.web.actions.WebActions - Write Text '5' on --> id: UnitLength_0]
+2022-Nov-11 10:45:40 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectDate_0]
+2022-Nov-11 10:45:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SelectDate_0]
+2022-Nov-11 10:45:41 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //td[@data-handler='selectDay']/a[text()='16']]
+2022-Nov-11 10:45:44 AM [main] INFO  com.web.actions.WebActions - Verify Object Exists : TRUE --> id: SelectSailing_0]
+2022-Nov-11 10:45:45 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: SubmitBooking]
+2022-Nov-11 10:45:49 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

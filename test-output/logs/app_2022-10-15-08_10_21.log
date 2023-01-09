@@ -1,0 +1,7 @@
+2022-Oct-15 08:10:27 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-15 08:10:31 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-Oct-15 08:10:31 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-15 08:10:31 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-15 08:10:32 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-15 08:10:44 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-15 08:10:48 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/CreditCustomerApplicationform

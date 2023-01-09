@@ -1,0 +1,2 @@
+2023-Jan-05 21:42:28 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2023-Jan-05 21:42:39 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

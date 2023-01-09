@@ -1,0 +1,17 @@
+2022-Oct-18 09:07:19 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-18 09:07:23 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-18 09:07:24 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:07:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:07:24 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-18 09:07:36 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-18 09:07:46 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-18 09:07:47 AM [main] INFO  com.web.actions.WebActions - Write Text 'SpcashTestGBP' on --> id: LoginEmail]
+2022-Oct-18 09:07:47 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-18 09:07:47 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password1' on --> id: LoginPass]
+2022-Oct-18 09:07:47 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-18 09:08:00 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:08:00 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-18 09:08:05 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='/ActiveBookings']]
+2022-Oct-18 09:08:06 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //span[@class='text']]
+2022-Oct-18 09:08:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //span[@class='text']]
+2022-Oct-18 09:08:17 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

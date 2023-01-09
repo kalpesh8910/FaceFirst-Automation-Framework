@@ -1,0 +1,33 @@
+2022-Oct-10 11:12:46 AM [main] INFO  com.driver.DriverFactory - InstantiateDriverObject Exception Log: org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A61ED3+2236115]
+	Ordinal0 [0x009F92F1+1807089]
+	Ordinal0 [0x009066FD+812797]
+	Ordinal0 [0x00928C6D+953453]
+	Ordinal0 [0x00924200+934400]
+	Ordinal0 [0x009219C9+924105]
+	Ordinal0 [0x0095806C+1146988]
+	Ordinal0 [0x00957A6A+1145450]
+	Ordinal0 [0x009518A6+1120422]
+	Ordinal0 [0x0092A73D+960317]
+	Ordinal0 [0x0092B71F+964383]
+	GetHandleVerifier [0x00D0E7E2+2743074]
+	GetHandleVerifier [0x00D008D4+2685972]
+	GetHandleVerifier [0x00AF2BAA+532202]
+	GetHandleVerifier [0x00AF1990+527568]
+	Ordinal0 [0x00A0080C+1837068]
+	Ordinal0 [0x00A04CD8+1854680]
+	Ordinal0 [0x00A04DC5+1854917]
+	Ordinal0 [0x00A0ED64+1895780]
+	BaseThreadInitThunk [0x75D2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77A57B5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77A57B2E+238]
+
+2022-Oct-10 11:12:46 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-10 11:12:46 AM [main] INFO  com.web.actions.WebActions - Exception: Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-10 11:12:47 AM [main] INFO  com.web.actions.WebActions - Exception Log: java.lang.NullPointerException
+2022-Oct-10 11:12:47 AM [main] INFO  com.web.actions.WebBrowserActions - Exception: CloseBrowser.
+2022-Oct-10 11:12:47 AM [main] INFO  com.web.actions.WebBrowserActions - Exception Log: java.lang.NullPointerException

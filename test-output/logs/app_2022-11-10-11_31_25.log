@@ -1,0 +1,40 @@
+2022-Nov-10 11:31:29 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-10 11:31:34 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-10 11:31:35 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 11:31:35 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 11:31:35 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-10 11:31:48 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-10 11:31:59 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-10 11:31:59 AM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Nov-10 11:31:59 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-10 11:31:59 AM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Nov-10 11:31:59 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-10 11:32:09 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-10 11:32:20 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-10 11:32:30 AM [main] INFO  com.web.actions.WebActions - Get All Object Size : 0 of By.xpath: //a[@class='closeAds']
+2022-Nov-10 11:32:42 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 11:32:42 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 11:32:54 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-10 11:33:06 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@title='Filter By'][@class='filterBtn']]
+2022-Nov-10 11:33:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='Status']/..//div[@name='multiselectFormText']]
+2022-Nov-10 11:33:07 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //select[@id='Status']/..//label[text()='Cancelled']/../input[@type='checkbox']]
+2022-Nov-10 11:33:08 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: apply]
+2022-Nov-10 11:33:08 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //div[@id='panelFilter']//a[@class='close icon']]
+2022-Nov-10 11:33:08 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: QuickSearchInput]
+2022-Nov-10 11:33:09 AM [main] INFO  com.web.actions.WebActions - Write Text 'DO00042004' on --> id: QuickSearchInput]
+2022-Nov-10 11:33:09 AM [main] INFO  com.web.actions.WebActions - Enter Key On --> id: QuickSearchInput]
+2022-Nov-10 11:33:22 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.
+2022-Nov-10 11:33:26 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Nov-10 11:33:30 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Nov-10 11:33:30 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 11:33:31 AM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Nov-10 11:33:31 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Nov-10 11:33:45 AM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Nov-10 11:33:56 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Nov-10 11:33:56 AM [main] INFO  com.web.actions.WebActions - Write Text 'cashuser01' on --> id: LoginEmail]
+2022-Nov-10 11:33:56 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Nov-10 11:33:56 AM [main] INFO  com.web.actions.WebActions - Write Text 'Dhoni@007' on --> id: LoginPass]
+2022-Nov-10 11:33:56 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Nov-10 11:34:35 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Visibile: --> class name: cancel]
+2022-Nov-10 11:34:35 AM [main] INFO  com.web.actions.WebActions - Click on :--> class name: cancel]
+2022-Nov-10 11:34:47 AM [main] INFO  com.web.actions.WebBrowserActions - closes the currently opened browser session.

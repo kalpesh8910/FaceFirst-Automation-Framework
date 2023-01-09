@@ -1,0 +1,33 @@
+2022-Oct-31 12:32:44 PM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-Oct-31 12:32:49 PM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uk-sitecore-freight-tst-rg-323540-cd.azurewebsites.net/
+2022-Oct-31 12:32:49 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:32:49 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:32:50 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-Oct-31 12:33:35 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-31 12:33:45 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-Oct-31 12:33:46 PM [main] INFO  com.web.actions.WebActions - Write Text 'fcduser03' on --> id: LoginEmail]
+2022-Oct-31 12:33:46 PM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-Oct-31 12:33:46 PM [main] INFO  com.web.actions.WebActions - Write Text 'Password01' on --> id: LoginPass]
+2022-Oct-31 12:33:46 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
+2022-Oct-31 12:33:49 PM [main] INFO  com.web.actions.WebActions - Get All Object Size : 1 of By.xpath: //a[@class='closeAds']
+2022-Oct-31 12:33:59 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@class='closeAds']]
+2022-Oct-31 12:34:00 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:34:00 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:34:12 PM [main] INFO  com.web.actions.WebActions - Click on :
+2022-Oct-31 12:34:25 PM [main] INFO  com.web.actions.WebActions - Click on :--> id: ChooseAccount]
+2022-Oct-31 12:34:25 PM [main] INFO  com.web.actions.WebActions - Select By Visible Text : [551370, North Sea Express NV], --> id: ChooseAccount]
+2022-Oct-31 12:34:26 PM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:34:26 PM [main] INFO  com.web.actions.WebActions - Click on :--> xpath: //a[@href='#mobileMenu'][@class='menuMobile']]
+2022-Oct-31 12:34:28 PM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Home]
+2022-Oct-31 12:34:29 PM [main] INFO  com.web.actions.WebActions - Object Text : 551370, North Sea Express NV, --> xpath: //section[@class='ccAccountBand']//a/span]
+2022-Oct-31 12:34:29 PM [main] INFO  com.poferries.tourist.web.stepDefinitions.Steps - Home Page Default Account is 551370, North Sea Express NV 
+2022-Oct-31 12:34:59 PM [main] INFO  com.web.actions.WebActions - Exception: clickElement '
+2022-Oct-31 12:34:59 PM [main] INFO  com.web.actions.WebActions - Exception Log: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Create new bookings"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POFWVDDEV-24', ip: '10.181.60.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\KHAIRN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a72af3dcf825d72d2a419f6db9eab3d6
+*** Element info: {Using=link text, value=Create new bookings}

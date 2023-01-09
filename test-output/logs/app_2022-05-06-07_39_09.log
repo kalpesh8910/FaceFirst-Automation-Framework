@@ -1,0 +1,9 @@
+2022-May-06 07:39:16 AM [main] INFO  com.driver.DriverFactory - Instantiate ChromeDriver
+2022-May-06 07:39:20 AM [main] INFO  com.web.actions.WebActions - Navigate to 'https://uks-sitecore-freight-dev-r-317880-cd.azurewebsites.net/
+2022-May-06 07:39:21 AM [main] INFO  com.web.actions.WebActions - Wait For Element To Be Clickable: --> link text: Book Now]
+2022-May-06 07:39:22 AM [main] INFO  com.web.actions.WebActions - Click on :--> link text: Book Now]
+2022-May-06 07:39:23 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginEmail]
+2022-May-06 07:39:23 AM [main] INFO  com.web.actions.WebActions - Write Text 'akhilraju@hotmail.com' on --> id: LoginEmail]
+2022-May-06 07:39:23 AM [main] INFO  com.web.actions.WebActions - Clear Text From : --> id: LoginPass]
+2022-May-06 07:39:23 AM [main] INFO  com.web.actions.WebActions - Write Text 'Shogun6666' on --> id: LoginPass]
+2022-May-06 07:39:24 AM [main] INFO  com.web.actions.WebActions - Click on :--> id: LoginUserBtn]
