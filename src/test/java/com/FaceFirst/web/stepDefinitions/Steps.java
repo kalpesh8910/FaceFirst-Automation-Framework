@@ -23,6 +23,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import com.FaceFirst.web.actions.DeployPageActions;
+import com.FaceFirst.web.actions.HomePageActions;
 import com.FaceFirst.web.actions.LoginPageActions;
 import com.FaceFirst.web.utilities.ConfigReader;
 import com.FaceFirst.web.utilities.TestDataUtil;
@@ -42,6 +44,8 @@ import io.cucumber.java.en.When;
 public class Steps {
 	
 	LoginPageActions loginPageActions;
+	HomePageActions homePageActions;
+	DeployPageActions deployPageActions;
 	
 	ConfigReader configReader = new ConfigReader();
 	TestDataUtil testdata = new TestDataUtil();
@@ -58,6 +62,8 @@ public class Steps {
 		//Seleniumdriver.setUpDriver();
 		this.WebTestActions = new Actions(DriverType.ChromeDriver);
      	this.loginPageActions = new LoginPageActions(this.WebTestActions);
+     	this.homePageActions = new HomePageActions(this.WebTestActions);
+     	this.deployPageActions = new DeployPageActions(this.WebTestActions);
 
 	}
 	
@@ -126,4 +132,88 @@ public class Steps {
     public void verify_validation_message_for_the_invalid_username_and_password() {
     	loginPageActions.verifyErrorMessageInvalidCredential();
     }
+    
+    
+    //****************************************
+  	// Home page Face First
+  	//****************************************
+    
+    @When("user logged in successfully and closed the pop-up")
+    public void user_logged_in_successfully_and_closed_the_pop_up() throws InterruptedException {
+    	loginPageActions.enterusername();
+    	loginPageActions.enterpassword();
+    	loginPageActions.ClickloginBtn();
+    	Thread.sleep(2000);
+    	homePageActions.clickCloseButtonPopup();
+    }
+ 
+    
+    @Then("verify if user have no license key then user will enter license key")
+    public void verify_if_user_have_no_license_key_then_user_will_enter_license_key() throws InterruptedException {
+    	Thread.sleep(5000);
+       homePageActions.checkLicenseStatus();
+    }
+    
+  //****************************************
+  // Deploy page Face First
+  //****************************************
+  
+    @When("click on deployment wizerd")
+    public void click_on_deployment_wizerd() throws InterruptedException {
+    	
+    	deployPageActions.deploymentWizerd();
+    	
+    }
+
+    @When("user select all in one deployment type")
+    public void user_select_all_in_one_deployment_type() {
+       
+    }
+
+    @When("click on next button")
+    public void click_on_next_button() {
+       
+    }
+
+    @Then("user should be navigated to select cameras tab")
+    public void user_should_be_navigated_to_select_cameras_tab() {
+      
+    }
+
+    @Then("user should be navigated to Enter portal settings")
+    public void user_should_be_navigated_to_enter_portal_settings() {
+       
+    }
+
+    @Then("enter username, password and confirm password")
+    public void enter_username_password_and_confirm_password() {
+      
+    }
+
+    @Then("enter email address")
+    public void enter_email_address() {
+       
+    }
+
+    @Then("select timezone")
+    public void select_timezone() {
+      
+    }
+
+    @Then("user should be navigated to Enter system settings")
+    public void user_should_be_navigated_to_enter_system_settings() {
+       
+    }
+
+    @Then("enter name")
+    public void enter_name() {
+       
+    }
+
+    @Then("click on deploy")
+    public void click_on_deploy() {
+      
+    }
+
+    
 }

@@ -1,5 +1,5 @@
 @LoginPage
-Feature: Orange HRM Login page Test
+Feature: Test Face-First login functionality
 
   Background: 
     Given user navigate to the FaceFirst Website

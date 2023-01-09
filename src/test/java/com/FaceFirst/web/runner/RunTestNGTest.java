@@ -18,8 +18,8 @@ import io.cucumber.testng.TestNGCucumberRunner;
 				glue = {"com.FaceFirst.web.stepDefinitions","com.web.hooks"},
 				plugin = {"com.web.hooks.CustomReportListener",
 						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
-				)
+						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+				tags = "@HomePage")
 
 //@Listeners({TestListner.class})
 public class RunTestNGTest {
