@@ -23,6 +23,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import com.FaceFirst.web.actions.ClientLoginPageActions;
 import com.FaceFirst.web.actions.DeployPageActions;
 import com.FaceFirst.web.actions.HomePageActions;
 import com.FaceFirst.web.actions.LoginPageActions;
@@ -46,6 +47,8 @@ public class Steps {
 	LoginPageActions loginPageActions;
 	HomePageActions homePageActions;
 	DeployPageActions deployPageActions;
+	ClientLoginPageActions clientLoginPageActions;
+	
 	
 	ConfigReader configReader = new ConfigReader();
 	TestDataUtil testdata = new TestDataUtil();
@@ -64,6 +67,7 @@ public class Steps {
      	this.loginPageActions = new LoginPageActions(this.WebTestActions);
      	this.homePageActions = new HomePageActions(this.WebTestActions);
      	this.deployPageActions = new DeployPageActions(this.WebTestActions);
+     	this.clientLoginPageActions = new ClientLoginPageActions(this.WebTestActions);
 
 	}
 	
@@ -214,6 +218,59 @@ public class Steps {
     public void click_on_deploy() {
       
     }
+    
+    //****************************************
+    // User (Client) page Face First
+    //****************************************
+    
+    @When("click on Portal URL")
+    public void click_on_portal_url() {
+       
+    	clientLoginPageActions.clickPortalLink();
+    }
 
+    @When("enter client username")
+    public void enter_client_username() {
+       
+    	clientLoginPageActions.enterClientUsername();
+    }
+
+    @When("enter client password")
+    public void enter_client_password() {
+       
+    	clientLoginPageActions.enterClientPassword();
+    }
+
+    @When("click on users button")
+    public void click_on_users_button() {
+     
+    	clientLoginPageActions.clickUserButton();
+    }
+
+    @Then("verify Users text and Enabled text should be displayed")
+    public void verify_users_text_and_enabled_text_should_be_displayed() throws InterruptedException {
+       
+    	Thread.sleep(1000);
+    	clientLoginPageActions.verifyUserEnabledText();
+    }
+
+    @Then("click on logout button")
+    public void click_on_logout_button() throws InterruptedException {
+      
+    	Thread.sleep(2000);
+    	clientLoginPageActions.clickLogoutButton();
+    }
+
+    @When("click on event user")
+    public void click_on_event_user() {
+       
+    	clientLoginPageActions.clickEnventButton();
+    }
+
+    @Then("verify Event text")
+    public void verify_event_text() {
+       
+    	clientLoginPageActions.verifyEventtext();
+    }
     
 }

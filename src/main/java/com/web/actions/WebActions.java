@@ -1,7 +1,9 @@
 package com.web.actions;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
@@ -67,6 +69,27 @@ public abstract class WebActions extends WebBrowserActions{
     	}
 		
 	}
+	
+    public void windowSwitching() {
+        try {
+        	Set<String> Mainwindow =  driver.getWindowHandles();
+    		Iterator<String> it = Mainwindow.iterator();
+    		while(it.hasNext()) {
+    			String child_window = it.next();
+    			if(!Mainwindow.equals(child_window)) {
+    				driver.switchTo().window(it.next());
+    			}else {
+    				System.out.println("No any window Matching...!!!!!");
+    			}
+    		}
+            logger.info("Window Switching : ");
+    	}catch(Exception e) {
+    		logger.info("Exception: Window Switching '");
+    		logger.info("Exception Log: " + e.toString());
+    		e.printStackTrace();
+    	}
+    }
+    
 
     public String getObjectText(WebElement WebElement) {
         String ObjectText = null;

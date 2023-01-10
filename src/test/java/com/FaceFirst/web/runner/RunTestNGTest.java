@@ -19,7 +19,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
 				plugin = {"com.web.hooks.CustomReportListener",
 						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-				tags = "@HomePage")
+				tags = "@ClientLoginPage")
 
 //@Listeners({TestListner.class})
 public class RunTestNGTest {
