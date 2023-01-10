@@ -48,8 +48,7 @@ public class Steps {
 	HomePageActions homePageActions;
 	DeployPageActions deployPageActions;
 	ClientLoginPageActions clientLoginPageActions;
-	
-	
+		
 	ConfigReader configReader = new ConfigReader();
 	TestDataUtil testdata = new TestDataUtil();
 
@@ -151,7 +150,6 @@ public class Steps {
     	homePageActions.clickCloseButtonPopup();
     }
  
-    
     @Then("verify if user have no license key then user will enter license key")
     public void verify_if_user_have_no_license_key_then_user_will_enter_license_key() throws InterruptedException {
     	Thread.sleep(5000);
