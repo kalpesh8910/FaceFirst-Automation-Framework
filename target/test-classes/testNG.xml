@@ -7,7 +7,7 @@
     </listeners>
     <test name="Complete test run">
         <classes>
-            <class name="com.poferries.tourist.web.runner.RunTestNGTest" />
+            <class name="com.FaceFirst.web.runner.RunTestNGTest" />
         </classes>
     </test>
     
