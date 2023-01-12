@@ -24,7 +24,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 import com.FaceFirst.web.actions.ClientLoginPageActions;
+import com.FaceFirst.web.actions.ClientLoginPageOptionsActions;
 import com.FaceFirst.web.actions.DeployPageActions;
+import com.FaceFirst.web.actions.EventGenerationEnd2EndFlowActions;
 import com.FaceFirst.web.actions.HomePageActions;
 import com.FaceFirst.web.actions.LoginPageActions;
 import com.FaceFirst.web.utilities.ConfigReader;
@@ -45,9 +47,11 @@ import io.cucumber.java.en.When;
 public class Steps {
 	
 	LoginPageActions loginPageActions;
+	ClientLoginPageActions clientLoginPageActions;
 	HomePageActions homePageActions;
 	DeployPageActions deployPageActions;
-	ClientLoginPageActions clientLoginPageActions;
+	ClientLoginPageOptionsActions clientLoginPageOptionsLocator;
+	EventGenerationEnd2EndFlowActions eventGenerationEnd2EndFlowActions;
 		
 	ConfigReader configReader = new ConfigReader();
 	TestDataUtil testdata = new TestDataUtil();
@@ -64,9 +68,11 @@ public class Steps {
 		//Seleniumdriver.setUpDriver();
 		this.WebTestActions = new Actions(DriverType.ChromeDriver);
      	this.loginPageActions = new LoginPageActions(this.WebTestActions);
+     	this.clientLoginPageActions = new ClientLoginPageActions(this.WebTestActions);
      	this.homePageActions = new HomePageActions(this.WebTestActions);
      	this.deployPageActions = new DeployPageActions(this.WebTestActions);
-     	this.clientLoginPageActions = new ClientLoginPageActions(this.WebTestActions);
+     	this.eventGenerationEnd2EndFlowActions = new EventGenerationEnd2EndFlowActions(this.WebTestActions);
+     	this.clientLoginPageOptionsLocator = new ClientLoginPageOptionsActions(this.WebTestActions);
 
 	}
 	
@@ -218,57 +224,195 @@ public class Steps {
     }
     
     //****************************************
-    // User (Client) page Face First
+    // User (Client) Login page options Face First
     //****************************************
     
     @When("click on Portal URL")
     public void click_on_portal_url() {
        
-    	clientLoginPageActions.clickPortalLink();
+    	clientLoginPageOptionsLocator.clickPortalLink();
     }
 
     @When("enter client username")
     public void enter_client_username() {
        
-    	clientLoginPageActions.enterClientUsername();
+    	clientLoginPageOptionsLocator.enterClientUsername();
     }
 
     @When("enter client password")
     public void enter_client_password() {
        
-    	clientLoginPageActions.enterClientPassword();
+    	clientLoginPageOptionsLocator.enterClientPassword();
     }
 
     @When("click on users button")
     public void click_on_users_button() {
      
-    	clientLoginPageActions.clickUserButton();
+    	clientLoginPageOptionsLocator.clickUserButton();
     }
 
     @Then("verify Users text and Enabled text should be displayed")
     public void verify_users_text_and_enabled_text_should_be_displayed() throws InterruptedException {
        
     	Thread.sleep(1000);
-    	clientLoginPageActions.verifyUserEnabledText();
+    	clientLoginPageOptionsLocator.verifyUserEnabledText();
     }
 
     @Then("click on logout button")
     public void click_on_logout_button() throws InterruptedException {
       
     	Thread.sleep(2000);
-    	clientLoginPageActions.clickLogoutButton();
+    	clientLoginPageOptionsLocator.clickLogoutButton();
     }
 
     @When("click on event user")
     public void click_on_event_user() {
        
-    	clientLoginPageActions.clickEnventButton();
+    	clientLoginPageOptionsLocator.clickEnventButton();
     }
 
     @Then("verify Event text")
     public void verify_event_text() {
        
-    	clientLoginPageActions.verifyEventtext();
+    	clientLoginPageOptionsLocator.verifyEventtext();
     }
+    
+    @When("click on Identify & Enroll")
+    public void click_on_identify_enroll() {
+    	clientLoginPageOptionsLocator.clickIdentifyandEnroll();
+    }
+
+    @Then("verify Identify & Enroll text")
+    public void verify_identify_enroll_text() {
+    	clientLoginPageOptionsLocator.verifyIdentifyandEnrollText();
+    }
+
+    @When("click on Account")
+    public void click_on_account() {
+    	clientLoginPageOptionsLocator.clickAccountButton();
+    }
+
+    @Then("verify Account text")
+    public void verify_account_text() {
+    	clientLoginPageOptionsLocator.verifyAccountText();
+    }
+    
+    //****************************************
+    // User (Client) Login page Face First
+    //****************************************
+    
+    @When("press enter button")
+    public void press_enter_button() {
+    	clientLoginPageActions.clickEnterButton();
+    }
+
+    @Then("verify user successful login")
+    public void verify_user_successful_login() {
+    	clientLoginPageActions.verifySuccessfulClintLogin();
+    }
+
+    @When("enter client wrong username")
+    public void enter_client_wrong_username() {
+    	clientLoginPageActions.enterWrongClientUsername();
+    }
+
+    @When("enter client wrong password")
+    public void enter_client_wrong_password() {
+    	clientLoginPageActions.enterWrongClientPassword();
+    }
+
+    @Then("verify the validation message is displyed")
+    public void verify_the_validation_message_is_displyed() {
+    	clientLoginPageActions.verifyValidationMsgInvalidLogin();
+    }
+    
+  //****************************************
+  // Event Generation End 2 End flow Face First
+  //****************************************
+    
+    @When("user login in clint login page")
+    public void user_login_in_clint_login_page() {
+    	clientLoginPageOptionsLocator.enterClientUsername();
+    	clientLoginPageOptionsLocator.enterClientPassword();
+    	clientLoginPageActions.clickEnterButton();
+    	clientLoginPageActions.verifySuccessfulClintLogin();
+    	
+    }
+
+    @When("user click on visitors menu iteam")
+    public void user_click_on_visitors_menu_iteam() {
+    	eventGenerationEnd2EndFlowActions.clickOnVisitorMenu();
+    }
+
+    @Then("visitor tab is opened")
+    public void visitor_tab_is_opened() {
+    	eventGenerationEnd2EndFlowActions.verifyVisitorTab();
+    }
+
+    @When("user click on criminal visitor photo")
+    public void user_click_on_criminal_visitor_photo() {
+    	eventGenerationEnd2EndFlowActions.clickCriminalPhoto();
+    }
+
+    @Then("visitor photo view tab is opened")
+    public void visitor_photo_view_tab_is_opened() {
+    	eventGenerationEnd2EndFlowActions.verifyVisitorPhotoTab();
+    }
+
+    @When("user click on Identify within Enrollments")
+    public void user_click_on_identify_within_enrollments() throws Throwable {
+    	eventGenerationEnd2EndFlowActions.clickOnIdentifyWithinEnrollments();
+    }
+
+    @Then("Identify and Enroll tab is opened")
+    public void identify_and_enroll_tab_is_opened() {
+    	eventGenerationEnd2EndFlowActions.verifyIdentifyAndEnrollTab();
+    }
+
+    @When("visitor photo is no matches found then Add Details tab is opened")
+    public void visitor_photo_is_no_matches_found_then_add_details_tab_is_opened() throws Throwable {
+    	eventGenerationEnd2EndFlowActions.addCriminalDetails();
+    }
+
+    @When("user enter all required and optional fields and save the deatils")
+    public void user_enter_all_required_and_optional_fields_and_save_the_deatils() {
+    	eventGenerationEnd2EndFlowActions.enterCriminalAllDetails();
+    }
+
+    @Then("Enrollment success meassage is displyed")
+    public void enrollment_success_meassage_is_displyed() {
+    	eventGenerationEnd2EndFlowActions.enrollmentSuccessMeassageVerify();
+    }
+
+    @When("user navigate to events menu iteam")
+    public void user_navigate_to_events_menu_iteam() {
+    	eventGenerationEnd2EndFlowActions.navigateToEventsMenu();
+    }
+
+    @Then("Event tab is opened")
+    public void event_tab_is_opened() {
+    	eventGenerationEnd2EndFlowActions.verifyEventTab();
+    }
+
+    @When("same criminal is visiting again")
+    public void same_criminal_is_visiting_again() throws Throwable {
+    	eventGenerationEnd2EndFlowActions.criminalIsVisitingAgain();
+    }
+
+    @Then("Event should be genrated")
+    public void event_should_be_genrated() throws Throwable {
+    	eventGenerationEnd2EndFlowActions.verifyEventGenration();
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }

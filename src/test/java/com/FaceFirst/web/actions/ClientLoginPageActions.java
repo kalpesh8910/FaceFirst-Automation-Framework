@@ -4,6 +4,7 @@ import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.support.PageFactory;
 
 import com.FaceFirst.web.locators.ClientLoginPageLocator;
+import com.FaceFirst.web.locators.ClientLoginPageOptionsLocator;
 import com.FaceFirst.web.locators.DeployPageLocator;
 import com.FaceFirst.web.locators.HomePageLocator;
 import com.FaceFirst.web.locators.LoginPageLocators;
@@ -18,7 +19,7 @@ public class ClientLoginPageActions {
 	// ****************************************************
 	DeployPageLocator deployPageLocator;
 	ClientLoginPageLocator clientLoginPageLocator;
-	
+
 	Actions WebTestActions;
 	// private static final Logger logger =
 	// LogManager.getLogger(SignUpPageActions.class.getName());
@@ -30,46 +31,28 @@ public class ClientLoginPageActions {
 		PageFactory.initElements(WebTestActions.driver, this);
 	}
 
-	public void clickPortalLink() {
-		
-		WebTestActions.clickElement(clientLoginPageLocator.portalLink);
-		WebTestActions.windowSwitching();
-		
-	}
-	public void enterClientUsername() {
-		
-		WebTestActions.writeText(configReader.configWeb.getProperty("PortalUsername"), clientLoginPageLocator.input_ClientUsername);;
-	}
-	
-	public void enterClientPassword() {
-		
-		WebTestActions.writeText(configReader.configWeb.getProperty("PortalPassword"), clientLoginPageLocator.input_ClientPassword);;
-	}
-	
-	public void clickUserButton() {
-		
-		WebTestActions.clickElement(clientLoginPageLocator.User_button);
-	}
-	
-	public void verifyUserEnabledText() {
-		
-		WebTestActions.VerifyObjectIsDisplayed(clientLoginPageLocator.user_Text);
-		WebTestActions.VerifyObjectIsDisplayed(clientLoginPageLocator.Enabled_text);
+	public void enterWrongClientUsername() {
 
+		WebTestActions.writeText(configReader.configWeb.getProperty("PortalInvalidUsername"),
+				clientLoginPageLocator.input_ClientUsername);
 	}
-	
-	public void clickLogoutButton() {
-		
-		WebTestActions.clickElement(clientLoginPageLocator.logout_button);
+
+	public void enterWrongClientPassword() {
+
+		WebTestActions.writeText(configReader.configWeb.getProperty("PortalInvalidPassword"),
+				clientLoginPageLocator.input_ClientPassword);
 	}
-	
-	public void clickEnventButton() {
-		
-		WebTestActions.clickElement(clientLoginPageLocator.event_Button);
+
+	public void clickEnterButton() {
+		WebTestActions.Enter(clientLoginPageLocator.input_ClientPassword);
 	}
-	
-	public void verifyEventtext() {
-		
-		WebTestActions.clickElementJS(clientLoginPageLocator.event_text);
+
+	public void verifySuccessfulClintLogin() {
+		WebTestActions.VerifyObjectIsDisplayed(clientLoginPageLocator.verify_facefirstLogo);
 	}
+
+	public void verifyValidationMsgInvalidLogin() {
+		WebTestActions.VerifyObjectIsDisplayed(clientLoginPageLocator.verify_validation_msg);
+	}
+
 }

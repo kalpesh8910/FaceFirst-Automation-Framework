@@ -5,16 +5,17 @@ Feature: Test Face-First client login functionality
     Given user navigate to the FaceFirst Website
     When user logged in successfully and closed the pop-up
     And click on Portal URL
+
+  @ClintLoginPostive
+  Scenario: Client Login with right username and password
     And enter client username
     And enter client password
+    And press enter button
+    Then verify user successful login 
 
-  @UserLogin
-  Scenario: Client Login with right username and password
-    And click on users button
-    Then verify Users text and Enabled text should be displayed
-    And click on logout button
-	
-  Scenario: Event Login with right username and password
-    And click on event user
-    Then verify Event text
-    And click on logout button
+  @ClintLoginNegative
+  Scenario: Client Login with wrong username and password
+    And enter client wrong username
+    And enter client wrong password
+    And press enter button
+    Then verify the validation message is displyed

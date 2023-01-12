@@ -14,11 +14,12 @@ import io.cucumber.testng.FeatureWrapper;
 import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
-@CucumberOptions(features = {"src/test/java/features"},
+@CucumberOptions(features = {"src/test/java/features/EventGenrationEnd2EndFlow.feature"},
 				glue = {"com.FaceFirst.web.stepDefinitions","com.web.hooks"},
 				plugin = {"com.web.hooks.CustomReportListener",
 						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+				
 			)
 
 @Listeners({TestListner.class})
@@ -44,7 +45,7 @@ private TestNGCucumberRunner testNGCucumberRunner;
 
     @AfterClass(alwaysRun = true)
     public void tearDownClass() {
-       testNGCucumberRunner.finish();
+    //   testNGCucumberRunner.finish();
 //		MailSetup mailSetup = new MailSetup();
 //		mailSetup.sendTestResultMailwithAttachments();
     }
