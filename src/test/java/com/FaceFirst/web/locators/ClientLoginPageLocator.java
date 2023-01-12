@@ -20,8 +20,12 @@ public class ClientLoginPageLocator {
 	@FindBy(how = How.XPATH, using = "//img[@id='ff-header-logo']")
     public WebElement verify_facefirstLogo;
 	
-	@FindBy(how = How.ID, using = "login-password")
+	@FindBy(how = How.XPATH, using = "//div[@class='ff-alert alert-error']")
     public WebElement verify_validation_msg;
+	
+	@FindBy(how = How.XPATH, using = "//a[@href='https://localhost']")
+    public WebElement clickPortalLink;
+	
 	
 	
 	

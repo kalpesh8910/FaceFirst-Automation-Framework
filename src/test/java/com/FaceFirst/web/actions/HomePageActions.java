@@ -34,7 +34,7 @@ public class HomePageActions {
 	
 	public void checkLicenseStatus() {
 		
-		WebTestActions.clickElementJS(homePageLocators.pencillicenseStatsus);
+		//WebTestActions.clickElementJS(homePageLocators.pencillicenseStatsus);
 		/*
 		 * if(homePageLocators.ExpiresStatus.isDisplayed()) {
 		 * 

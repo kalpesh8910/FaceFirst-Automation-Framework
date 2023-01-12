@@ -17,7 +17,6 @@ public class ExcelUtils {
 	private XSSFCell Cell;
 	private XSSFRow Row;
 	private XSSFCell HeaderCell;
-	
 	private XSSFRow HeaderRow;
 
 	public void ReadExcelFile(String Path,String SheetName)throws Exception{

@@ -23,7 +23,7 @@ public class HomePageLocator {
 	@FindBy(how = How.XPATH, using = "//span[text()='Save']")
     public WebElement saveBuuton;
 	
-	@FindBy(how = How.XPATH, using = "//p[text()='Expires in 23 days, 1,000 enrollments']")
+	@FindBy(how = How.XPATH, using = "//p[text()='Expires in 21 days, 1,000 enrollments']")
     public WebElement ExpiresStatus;
 	
 	@FindBy(how = How.XPATH, using = "//div[@title='Deployment Wizard']")

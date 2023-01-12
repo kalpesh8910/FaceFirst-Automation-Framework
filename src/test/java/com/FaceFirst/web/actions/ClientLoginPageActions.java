@@ -4,8 +4,7 @@ import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.support.PageFactory;
 
 import com.FaceFirst.web.locators.ClientLoginPageLocator;
-import com.FaceFirst.web.locators.ClientLoginPageOptionsLocator;
-import com.FaceFirst.web.locators.DeployPageLocator;
+
 import com.FaceFirst.web.locators.HomePageLocator;
 import com.FaceFirst.web.locators.LoginPageLocators;
 import com.FaceFirst.web.utilities.ConfigReader;
@@ -17,7 +16,7 @@ public class ClientLoginPageActions {
 	ConfigReader configReader = new ConfigReader();
 	TestDataUtil testdata = new TestDataUtil();
 	// ****************************************************
-	DeployPageLocator deployPageLocator;
+	
 	ClientLoginPageLocator clientLoginPageLocator;
 
 	Actions WebTestActions;
@@ -31,6 +30,16 @@ public class ClientLoginPageActions {
 		PageFactory.initElements(WebTestActions.driver, this);
 	}
 
+	public void enterClientUsername() {
+		
+		WebTestActions.writeText(configReader.configWeb.getProperty("PortalUsername"), clientLoginPageLocator.input_ClientUsername);
+	}
+	
+	public void enterClientPassword() {
+		
+		WebTestActions.writeText(configReader.configWeb.getProperty("PortalPassword"), clientLoginPageLocator.input_ClientPassword);
+	}
+	
 	public void enterWrongClientUsername() {
 
 		WebTestActions.writeText(configReader.configWeb.getProperty("PortalInvalidUsername"),
@@ -53,6 +62,11 @@ public class ClientLoginPageActions {
 
 	public void verifyValidationMsgInvalidLogin() {
 		WebTestActions.VerifyObjectIsDisplayed(clientLoginPageLocator.verify_validation_msg);
+	}
+	
+	public void clickPortalLink() {
+		WebTestActions.clickElement(clientLoginPageLocator.clickPortalLink);
+		WebTestActions.windowSwitching();
 	}
 
 }

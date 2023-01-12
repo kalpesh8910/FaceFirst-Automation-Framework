@@ -27,7 +27,8 @@ public class LoginPageActions {
 	public void enterusername() throws InterruptedException
 	{
 		Thread.sleep(8000);
-		loginPageLocators.username.sendKeys((configReader.configWeb.getProperty("username")));
+		WebTestActions.writeText(configReader.configWeb.getProperty("username"), loginPageLocators.username);
+		//loginPageLocators.username.sendKeys((configReader.configWeb.getProperty("username")));
 		Thread.sleep(4000);
 	}
 
